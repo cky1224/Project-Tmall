@@ -1,0 +1,1725 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<link href="../img/TB1XlF3RpXXXXc6XXXXXXXXXXXX-16-16.png" rel="shortcut icon" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="../css/cssreset.css">
+		
+		
+		<link rel="stylesheet" type="text/css" href="../css/index.css" />
+		<link rel="stylesheet" type="text/css" href="../css/shopChar.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/login.css" />
+		<script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
+		<script src="../js/index.js"></script>
+		<script src="../js/shopCar.js"></script>
+	</head>
+	<body>
+		<!--<header>
+			
+		</header>-->
+
+		<nav class="site-search">
+			<div class="site-container">
+				<p class="home">天猫首页</p>
+				<p class="login-info">
+					<span>喵，欢迎来天猫</span>
+					<a href="login.html">请登录</a>
+					<a href="#">免费注册</a>
+				</p>
+				<!--第7个li,第5个li,第1个li,第2个li-->
+				<ul class="site-menu">
+					<li>
+						<a href="#">网站导航<b></b></a>
+
+						<div class="guide">
+							<div class="hot">
+								<h4>热门推荐
+										Hot</h4>
+								<ul>
+									<li>
+										<a href="">天猫超市</a>
+									</li>
+									<li>
+										<a href="">喵鲜生</a>
+									</li>
+									<li>
+										<a href=""><span class="new"></span>科技新品</a>
+									</li>
+									<li>
+										<a href=""><span class="hot_pro"></span>女装新品</a>
+									</li>
+									<li>
+										<a href=""><span class="hot_pro"></span>内衣新品</a>
+									</li>
+									<li>
+										<a href="">试美妆</a>
+									</li>
+									<li>
+										<a href="">运动新品</a>
+									</li>
+									<li>
+										<a href=""><span class="hot_pro"></span>时尚先生</a>
+									</li>
+									<li>
+										<a href=""><span class="new"></span>吃乐会</a>
+									</li>
+									<li>
+										<a href="">企业采购</a>
+									</li>
+									<li>
+										<a href="">会员积分</a>
+									</li>
+									<li>
+										<a href="">天猫国际</a>
+									</li>
+								</ul>
+							</div>
+							<div class="market">
+								<h4>行内市场 
+								Market</h4>
+								<ul>
+									<li>
+										<a href="">美妆</a>
+									</li>
+									<li>
+										<a href="">电器</a>
+									</li>
+									<li>
+										<a href=""><span class="hot_pro"></span>女装</a>
+									</li>
+									<li>
+										<a href=""><span class="hot_pro"></span>男装</a>
+									</li>
+									<li>
+										<a href="">男鞋</a>
+									</li>
+									<li>
+										<a href=""><span class="hot_pro"></span>内衣</a>
+									</li>
+									<li>
+										<a href="">精包</a>
+									</li>
+									<li>
+										<a href="">运动</a>
+									</li>
+									<li>
+										<a href="">家装</a>
+									</li>
+									<li>
+										<a href="">医药</a>
+									</li>
+									<li>
+										<a href="">食品</a>
+									</li>
+									<li>
+										<a href=""><span class="new"></span>配饰</a>
+									</li>
+								</ul>
+							</div>
+							<div class="service">
+								<h4>服务指南 
+								Help</h4>
+								<ul>
+									<li>
+										<a href="">帮助中心</a>
+									</li>
+									<li>
+										<a href="">品质保障</a>
+									</li>
+									<li>
+										<a href="">特色服务</a>
+									</li>
+									<li>
+										<a href="">7天退还货</a>
+									</li>
+								</ul>
+
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="#">商家支持<b></b></a>
+						<div class="support">
+							<div class="merchant">
+								<h4>商家:</h4>
+								<ul>
+									<li>
+										<a href="">商家中心</a>
+									</li>
+									<li>
+										<a href="">天猫规则</a>
+									</li>
+									<li>
+										<a href="">商家入驻</a>
+									</li>
+									<li>
+										<a href="">运营客服</a>
+									</li>
+									<li>
+										<a href="">商家品控</a>
+									</li>
+									<li>
+										<a href="">商家工具</a>
+									</li>
+									<li>
+										<a href="">天猫智库</a>
+									</li>
+									<li>
+										<a href="">喵言喵语</a>
+									</li>
+								</ul>
+							</div>
+							<div class="help">
+								<h4>帮助：</h4>
+								<ul>
+									<li>
+										<a href="">帮助中心</a>
+									</li>
+									<li>
+										<a href="">问商友</a>
+									</li>
+
+								</ul>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="#">淘宝网</a>
+					</li>
+					<li>
+						<a href="#">手机版<b></b></a>
+						<div class="phone">
+
+							<span></span>
+						</div>
+					</li>
+					<li>
+						<a href="#">收藏夹<b></b></a>
+						<div class="favorite">
+							<a href="">收藏的宝贝</a>
+							<a href="">收藏的店铺</a>
+						</div>
+					</li>
+					<li>
+						<a href="#">购物车</a>
+					</li>
+					<li>
+						<a href="#">我的淘宝<b></b></a>
+						<div class="myTaobao">
+							<a href="" class="first">已买到的宝贝</a>
+							<a href="">已卖出的宝贝</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<div id="head-search">
+			<div id="logo">
+
+			</div>
+			<div id="AreaSelector">
+				<h3>深圳
+							<i></i></h3>
+				<div class="address-selector">
+					<div class="hot-city">
+						<span class="head">热门城市</span>
+						<p id="h_city">
+							<span class="hcities">北京</span>
+							<span class="hcities">上海</span>
+							<span class="hcities">杭州</span>
+							<span class="hcities">广州</span>
+							<span class="hcities">天津</span>
+							<span class="hcities">苏州</span>
+							<span class="hide_city" id="hide_one">
+											
+										</span>
+							<span class="hcities">成都</span>
+							<span class="hcities">深圳</span>
+							<span class="hcities">南京</span>
+							<span class="hcities">重庆</span>
+							<span class="hcities">南昌</span>
+							<span class="hcities">武汉</span>
+							<span class="hide_city" id="hide_two"></span>
+							</span>
+
+					</div>
+					<p class="letters">
+						<span class="tab active">ABCDE</span>
+						<span class="tab">FGHJ</span>
+						<span class="tab">KLMNP</span>
+						<span class="tab">QRSTW</span>
+						<span class="tab">XYZ</span>
+					</p>
+					<div class="allcitybox">
+						<div class="c_ABCDE citytab">
+							<div class="wrapper ">
+								<span class="letter-title">A</span>
+								<p class="Acities">
+									<span class="cities">阿坝</span>
+									<span class="cities">安庆</span>
+									<span class="cities">安顺</span>
+									<span class="cities">阿拉尔</span>
+									<span class="cities">鞍山</span>
+									<span class="cities">阿克苏</span>
+									<span class="hide_city leftzero A"></span>
+									<span class="cities">阿拉善</span>
+									<span class="cities">阿勒泰</span>
+									<span class="cities">安康</span>
+									<span class="cities">阿里</span>
+									<span class="cities">安阳</span>
+									<span class="hide_city leftzero A"></span>
+
+								</p>
+							</div>
+							<div class="wrapper">
+								<span class="letter-title">B</span>
+								<p class="Bcities">
+									<span class="cities">百色</span>
+									<span class="cities">巴音郭楞</span>
+									<span class="cities">滨州</span>
+									<span class="cities">保定</span>
+									<span class="cities">北屯</span>
+									<span class="cities">毫不</span>
+									<span class="hide_city leftzero B"></span>
+									<span class="cities">白银</span>
+									<span class="cities">白沙</span>
+									<span class="cities">巴中</span>
+									<span class="cities">保亭</span>
+									<span class="cities"> 包头</span>
+									<span class="cities">毕节</span>
+									<span class="hide_city leftzero B"></span>
+									<span class="cities">白山</span>
+									<span class="cities">宝鸡</span>
+									<span class="cities">毫州</span>
+									<span class="cities">保山</span>
+									<span class="cities">本溪</span>
+									<span class="cities">巴彦卓尔</span>
+									<span class="hide_city leftzero B"></span>
+									<span class="cities">北京</span>
+									<span class="cities">博尔塔拉</span>
+									<span class="cities">白城</span>
+									<span class="cities">北海</span>
+									<span class="hide_city leftzero B"></span>
+								</p>
+							</div>
+							<div class="wrapper">
+								<span class="letter-title">C</span>
+								<p class="Ccities">
+									<span class="cities">常德</span>
+									<span class="cities">常德</span>
+									<span class="cities">常德</span>
+									<span class="cities">常德</span>
+									<span class="cities">常德</span>
+									<span class="cities">宝山</span>
+									<span class="hide_city leftzero C"></span>
+									<span class="cities">常德</span>
+									<span class="cities">常德</span>
+									<span class="cities">常德</span>
+									<span class="cities">常德</span>
+									<span class="cities">常德</span>
+									<span class="cities">大连</span>
+									<span class="hide_city leftzero C"></span>
+									<span class="cities">常德</span>
+									<span class="cities">常德</span>
+									<span class="cities">常德</span>
+									<span class="cities">常德</span>
+									<span class="cities">常德</span>
+									<span class="cities">北海</span>
+									<span class="hide_city leftzero C"></span>
+									<span class="cities">常德</span>
+									<span class="cities">常德</span>
+									<span class="cities">常德</span>
+									<span class="cities">常德</span>
+									<span class="cities">常德</span>
+									<span class="hide_city leftzero C"></span>
+								</p>
+							</div>
+							<div class="wrapper">
+								<span class="letter-title">D</span>
+								<p class="Dcities">
+									<span class="cities">大连</span>
+									<span class="cities">大连</span>
+									<span class="cities">大连</span>
+									<span class="cities"> 大兴安岭</span>
+									<span class="cities"> 大连</span>
+									<span class="cities">白城</span>
+									<span class="hide_city leftzero C">/span>
+												<span class="cities">大连</span>
+									<span class="cities">大连</span>
+									<span class="cities">大兴安岭</span>
+									<span class="cities">大兴安岭</span>
+									<span class="cities">大兴安岭</span>
+									<span class="cities">大连</span>
+									<span class="hide_city leftzero C"></span>
+									<span class="cities">大兴安岭</span>
+									<span class="cities">大连</span>
+									<span class="cities">大兴安岭</span>
+									<span class="cities">大连</span>
+									<span class="hide_city leftzero C"></span>
+								</p>
+							</div>
+							<div class="wrapper">
+								<span class="letter-title">E</span>
+								<p class="Ecities">
+									<span class="cities">恩施</span>
+									<span class="cities">鄂尔多斯</span>
+									<span class="cities">鄂州</span>
+									<span class="hide_city leftzero C"></span>
+								</p>
+							</div>
+
+						</div>
+						<div class="c_FGHJ citytab hide">
+							<div class="wrapper">
+								<span class="letter-title">F</span>
+								<p class="Fcities">
+									<span class="cities">福州</span>
+									<span class="cities">抚顺</span>
+									<span class="cities">防城港</span>
+									<span class="hide_city leftzero C"></span>
+								</p>
+							</div>
+							<div class="wrapper">
+								<span class="letter-title">G</span>
+								<p class="Gcities">
+									<span class="cities">白银</span>
+									<span class="cities">白沙</span>
+									<span class="cities">巴中</span>
+									<span class="cities">保亭</span>
+									<span class="cities">包头</span>
+									<span class="cities">毕节</span>
+									<span class="hide_city leftzero C"></span>
+									<span class="cities">白山</span>
+									<span class="cities">宝鸡</span>
+									<span class="cities">毫州</span>
+									<span class="cities">保山</span>
+									<span class="cities">本溪</span>
+									<span class="cities">巴彦卓尔</span>
+									<span class="hide_city leftzero C"></span>
+									<span class="cities">北京</span>
+
+									<span class="cities">博尔塔拉</span>
+									<span class="cities">白城</span>
+									<span class="cities">北海</span>
+									<span class="hide_city"></span>
+								</p>
+							</div>
+							<div class="wrapper">
+								<span class="letter-title">H</span>
+								<p class="Hcities">
+									<span class="cities">白银</span>
+									<span class="cities">白沙</span>
+									<span class="cities">巴中</span>
+									<span class="cities">保亭</span>
+									<span class="cities">包头</span>
+									<span class="cities">毕节</span>
+									<span class="hide_city leftzero C"></span>
+									<span class="cities">白山</span>
+									<span class="cities">宝鸡</span>
+									<span class="cities">毫州</span>
+									<span class="cities">保山</span>
+									<span class="cities">本溪</span>
+									<span class="cities">巴彦卓尔</span>
+									<span class="hide_city leftzero C"></span>
+									<span class="cities">北京</span>
+									<span class="cities">博尔塔拉</span>
+									<span class="cities">白城</span>
+									<span class="cities"> 北海</span>
+									<span class="hide_city leftzero C"></span>
+								</p>
+							</div>
+							<div class="wrapper">
+								<span class="letter-title">J</span>
+								<p class="Jcities">
+									<span class="cities">白银</span>
+									<span class="cities">白沙</span>
+									<span class="cities">巴中</span>
+									<span class="cities">保亭</span>
+									<span class="cities">包头</span>
+									<span class="cities">毕节</span>
+									<span class="hide_city leftzero C"></span>
+									<span class="cities">白山</span>
+									<span class="cities">宝鸡</span>
+									<span class="cities">毫州</span>
+									<span class="cities"> 保山</span>
+									<span class="cities">本溪</span>
+									<span class="cities">巴彦卓尔</span>
+									<span class="hide_city leftzero C"></span>
+									<span class="cities">北京</span>
+									<span class="cities">博尔塔拉</span>
+									<span class="cities">白城</span>
+									<span class="cities"> 北海</span>
+									<span class="hide_city leftzero C"></span>
+								</p>
+							</div>
+						</div>
+						<div class="c_KLMNP citytab hide">
+							<div class="wrapper">
+								<span class="letter-title">K</span>
+								<p class="Kcities">
+									<span class="cities">白银</span>
+									<span class="cities">白沙</span>
+									<span class="cities">巴中</span>
+									<span>保亭</span>
+									<span>包头</span>
+									<span>毕节</span>
+									<span class="hide_city leftzero C"></span>
+									<span>白山</span>
+									<span>宝鸡</span>
+									<span>毫州</span>
+									<span>保山</span>
+									<span>本溪</span>
+									<span>巴彦卓尔</span>
+									<span class="hide_city leftzero C"></span>
+									<span>北京</span>
+									<span>博尔塔拉</span>
+									<span>白城</span>
+									<span>北海</span>
+									<span class="hide_city leftzero C"></span>
+								</p>
+							</div>
+							<div class="wrapper">
+								<span class="letter-title">L</span>
+								<p class="Lcities">
+									<span>白银</span>
+									<span>白沙</span>
+									<span>巴中</span>
+									<span>保亭</span>
+									<span>包头</span>
+									<span>毕节</span>
+									<span class="hide_city leftzero C"></span>
+									<span>白山</span>
+									<span>宝鸡</span>
+
+									<span>本溪</span>
+									<span>巴彦卓尔</span>
+									<span>北京</span>
+									<span>博尔塔拉</span>
+									<span class="hide_city leftzero C"></span>
+									<span>白城</span>
+									<span>北海</span>
+									<span class="hide_city leftzero C"></span>
+								</p>
+							</div>
+							<div class="wrapper">
+								<span class="letter-title">M</span>
+								<p class="Mcities">
+									<span>白银</span>
+									<span>白沙</span>
+									<span>巴中</span>
+									<span>保亭</span>
+
+									<span>宝鸡</span>
+									<span>毫州</span>
+									<span class="hide_city leftzero C"></span>
+									<span>保山</span>
+									<span>本溪</span>
+									<span>巴彦卓尔</span>
+									<span>北京</span>
+									<span>博尔塔拉</span>
+									<span>白城</span>
+									<span class="hide_city leftzero C"></span>
+									<span>北海</span>
+									<span class="hide_city leftzero C"></span>
+								</p>
+							</div>
+							<div class="wrapper">
+								<span class="letter-title">N</span>
+								<p class="Ncities">
+									<span>白银</span>
+									<span>白沙</span>
+									<span>巴中</span>
+									<span>保亭</span>
+									<span>包头</span>
+									<span>白银</span>
+									<span class="hide_city leftzero C"></span>
+									<span>白沙</span>
+									<span>巴中</span>
+									<span>保亭</span>
+									<span>包头</span>
+									<span>毕节</span>
+									<span>白山</span>
+									<span class="hide_city leftzero C"></span>
+									<span>宝鸡</span>
+									<span>毫州</span>
+									<span>保山</span>
+									<span>本溪</span>
+									<span>巴彦卓尔</span>
+
+									<span>北海</span>
+									<span class="hide_city leftzero C"></span>
+								</p>
+							</div>
+							<div class="wrapper">
+								<span class="letter-title">P</span>
+								<p class="Pcities"><span>白银</span>
+									<span>白沙</span>
+									<span>巴中</span>
+									<span>保亭</span>
+									<span>包头</span>
+
+									<span>包头</span>
+									<span>毕节</span>
+									<span class="hide_city leftzero C"></span>
+									<span>白山</span>
+									<span>宝鸡</span>
+									<span>毫州</span>
+									<span>保山</span>
+									<span>本溪</span>
+									<span>巴彦卓尔</span>
+									<span class="hide_city leftzero C"></span>
+									<span>北京</span>
+									<span>博尔塔拉</span>
+									<span>白城</span>
+									<span>北海</span>
+									<span class="hide_city leftzero C"></span>
+								</p>
+							</div>
+						</div>
+						<div class="c_QRSTW citytab hide">
+							<div class="wrapper">
+								<span class="letter-title">Q</span>
+								<p class="Qcities">
+									<span>白银</span>
+									<span>白沙</span>
+									<span>巴中</span>
+									<span>保亭</span>
+									<span>包头</span>
+									<span>毕节</span>
+									<span class="hide_city leftzero C"></span>
+									<span>白山</span>
+									<span>宝鸡</span>
+									<span>白银</span>
+									<span>白沙</span>
+									<span>巴中</span>
+									<span>保亭</span>
+									<span class="hide_city leftzero C"></span>
+									<span>包头</span>
+									<span>毫州</span>
+									<span>保山</span>
+									<span>本溪</span>
+									<span>巴彦卓尔</span>
+									<span>北京</span>
+									<span class="hide_city leftzero C"></span>
+									<span>博尔塔拉</span>
+									<span>白城</span>
+									<span>北海</span>
+									<span class="hide_city leftzero C"></span>
+								</p>
+							</div>
+							<div class="wrapper">
+								<span class="letter-title">R</span>
+								<p class="Rcities">
+									<span>白银</span>
+									<span>白沙</span>
+									<span>巴中</span>
+									<span>保亭</span>
+									<span>包头</span>
+									<span>白银</span>
+									<span class="hide_city leftzero C"></span>
+									<span>白沙</span>
+									<span>巴中</span>
+									<span>保亭</span>
+									<span>包头</span>
+									<span>毕节</span>
+									<span>白山</span>
+									<span class="hide_city leftzero C"></span>
+									<span>宝鸡</span>
+									<span>毫州</span>
+									<span>保山</span>
+									<span>本溪</span>
+
+									<span>北海</span>
+									<span class="hide_city leftzero C"></span>
+								</p>
+							</div>
+							<div class="wrapper">
+								<span class="letter-title">S</span>
+								<p class="Scities">
+									<span>白银</span>
+									<span>白沙</span>
+									<span>巴中</span>
+									<span>保亭</span>
+									<span>包头</span>
+									<span>毕节</span>
+									<span class="hide_city leftzero C"></span>
+									<span>白山</span>
+									<span>白银</span>
+									<span>白沙</span>
+									<span>巴中</span>
+
+									<span>毫州</span>
+									<span>保山</span>
+									<span class="hide_city leftzero C"></span>
+									<span>本溪</span>
+									<span>巴彦卓尔</span>
+									<span>北京</span>
+									<span>博尔塔拉</span>
+									<span>白城</span>
+									<span>北海</span>
+									<span class="hide_city leftzero C"></span>
+								</p>
+							</div>
+							<div class="wrapper">
+								<span class="letter-title">T</span>
+								<p class="Tcities">
+									<span>白银</span>
+									<span>白沙</span>
+									<span>巴中</span>
+									<span>保亭</span>
+									<span>白银</span>
+									<span>白沙</span>
+									<span class="hide_city leftzero C"></span>
+									<span>巴中</span>
+									<span>保亭</span>
+									<span>包头</span>
+									<span>包头</span>
+									<span>毕节</span>
+									<span>白山</span>
+									<span class="hide_city leftzero C"></span>
+									<span>宝鸡</span>
+									<span>毫州</span>
+									<span>保山</span>
+									<span>本溪</span>
+									<span>巴彦卓尔</span>
+									<span>北京</span>
+									<span class="hide_city leftzero C"></span>
+									<span>博尔塔拉</span>
+									<span>白城</span>
+									<span>北海</span>
+									<span class="hide_city leftzero C"></span>
+								</p>
+							</div>
+							<div class="wrapper">
+								<span class="letter-title">W</span>
+								<p class="Wcities">
+									<span>白银</span>
+									<span>白沙</span>
+									<span>巴中</span>
+									<span>保亭</span>
+									<span>白银</span>
+									<span>白沙</span>
+									<span class="hide_city leftzero C"></span>
+									<span>巴中</span>
+									<span>保亭</span>
+									<span>包头</span>
+									<span>包头</span>
+									<span>毕节</span>
+									<span>白山</span>
+									<span class="hide_city leftzero C"></span>
+									<span>宝鸡</span>
+									<span>毫州</span>
+									<span>保山</span>
+									<span>本溪</span>
+									<span>巴彦卓尔</span>
+									<span>北京</span>
+									<span class="hide_city leftzero C"></span>
+									<span>博尔塔拉</span>
+									<span>白城</span>
+									<span>北海</span>
+									<span class="hide_city leftzero C"></span>
+								</p>
+							</div>
+						</div>
+						<div class="c_XYZ citytab hide">
+							<div class="wrapper">
+								<span class="letter-title">X</span>
+								<p class="Xcities">
+									<span>白银</span>
+									<span>白沙</span>
+									<span>巴中</span>
+									<span>保亭</span>
+									<span>包头</span>
+									<span>毕节</span>
+									<span class="hide_city leftzero C"></span>
+									<span>白山</span>
+									<span>宝鸡</span>
+									<span>毫州</span>
+									<span>保山</span>
+									<span>本溪</span>
+									<span>巴彦卓尔</span>
+									<span class="hide_city leftzero C"></span>
+									<span>北京</span>
+									<span>博尔塔拉</span>
+									<span>白城</span>
+									<span>北海</span>
+									<span>白银</span>
+									<span>白沙</span>
+									<span class="hide_city leftzero C"></span>
+									<span>巴中</span>
+									<span>保亭</span>
+									<span>包头</span>
+									<span class="hide_city leftzero C"></span>
+								</p>
+							</div>
+							<div class="wrapper">
+								<span class="letter-title">Y</span>
+								<p class="Ycities">
+									<span>白银</span>
+									<span>白沙</span>
+									<span>巴中</span>
+									<span>保亭</span>
+									<span>包头</span>
+									<span>白银</span>
+									<span class="hide_city leftzero C"></span>
+									<span>白沙</span>
+									<span>巴中</span>
+									<span>保亭</span>
+									<span>包头</span>
+									<span>毕节</span>
+									<span>白山</span>
+									<span class="hide_city leftzero C"></span>
+									<span>宝鸡</span>
+									<span>毫州</span>
+									<span>保山</span>
+									<span>本溪</span>
+									<span>巴彦卓尔</span>
+									<span>北京</span>
+									<span class="hide_city leftzero C"></span>
+									<span>博尔塔拉</span>
+									<span>白城</span>
+									<span>北海</span>
+									<span class="hide_city leftzero C"></span>
+								</p>
+							</div>
+							<div class="wrapper">
+								<span class="letter-title">Z</span>
+								<p class="Zcities">
+									<span>白银</span>
+									<span>白沙</span>
+									<span>巴中</span>
+
+									<span>保亭</span>
+									<span>包头</span>
+									<span>毕节</span>
+									<span class="hide_city leftzero C"></span>
+									<span>白山</span>
+									<span>宝鸡</span>
+									<span>毫州</span>
+									<span>保山</span>
+									<span>本溪</span>
+									<span>巴彦卓尔</span>
+									<span class="hide_city leftzero C"></span>
+									<span>北京</span>
+									<span>博尔塔拉</span>
+									<span>白城</span>
+									<span>北海</span>
+									<span class="hide_city leftzero C"></span>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<fieldset id="searchfi">
+				<div>
+					<input id="searchTop" type="search" placeholder="请输入关键字" />
+					<button type="submit" style="width: 86.0px;">搜索</button>
+				</div>
+			</fieldset>
+			<div class="header-banner">
+				<ul class="market-feature">
+
+					<li>
+						<a href=""><img src="../img/police.png" /></a>
+					</li>
+					<li>
+						<a href=""><span></span>满88包邮</a>
+					</li>
+					<li>
+						<a href=""><span></span>一站式购齐</a>
+					</li>
+				</ul>
+				
+			</div>
+
+		</div>
+
+		<!--//弹出登录窗口-->
+		<div class="superbigBox"> </div>
+		<div class="loginWindows"></div>
+
+			<!--<div class="lw_top_head">
+				<span class="lw_top_head_logo"></span>
+				<span class="lw_top_head_close"></span>
+			</div>
+			<div id="form_content" style="left: 0%;top: 0%;margin-top: 36px;">
+				<div class="bd current">
+					<i class="quick_login"></i>
+					<div class="poptip">
+						<p><span></span>扫码登录更安全<b></b></p>
+					</div>
+
+					<div class="login_form">
+						<form action="index.html" method="post" name="fomrs" id="txt">
+							<h4 style="font-weight: 600;">密码登录</h4>
+
+							<p>
+								<span id="userwaring"></span>
+								<label for="userName" class="userLabel"></label>
+								<span></span>
+								<input type="text" name="userName" id="userName" class="txtInput" value maxlength="32" textindex="2" placeholder="会员名/邮箱/手机号" style="font-size: 14px;" />
+
+							</p>
+							<p>
+								<label for="pwd" class="pwdLabel"></label>
+								<span></span>
+								<input type="password" name="pwd" id="pwd" class="txtInput" />
+							</p>
+							<p>
+								<input type="submit" value="登录" id="btnlogin" style="background: #B6000C;" />
+							</p>
+
+							<ul>
+								<li>
+									<a href="">忘记会员名</a>
+								</li>
+								<li>
+									<a href="">免费注册</a>
+								</li>
+								<li>
+									<a href="">忘记密码</a>
+								</li>
+
+							</ul>
+						</form>
+					</div>
+				</div>
+
+				<div class="bd ">
+					<i class="accountnum_login"></i>
+
+					<div class="login_form ">
+						<h4>手机扫码，安全登录</h4>
+
+						<div class="Qrcode_mod">
+							<div class="Qrcode_main">
+								<img id="QRcode" src="../img/QRcode.png" alt="" />
+								<img id="phonescan" src="../img/phonescan.png" alt="" />
+							</div>
+							<span id="scan"></span>
+							<p id="txt">
+
+								<span>打开</span>
+								<a href="">手机天猫</a> |
+								<a href="">手机淘宝</a>
+								<br /><span>扫一扫登录</span>
+							</p>
+							<div class="login_register">
+								<a style="cursor: pointer;" id="pwdLogin">密码登录</a>
+								<a href="">免费注册</a>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>-->
+		<section>
+			<div class="Car-content-layout">
+				<div class="wrap-ul-Car-swicth">
+					<ul class="Car-swicth">
+						<li class="current">全部商品<span>3</span></li>
+						<li>降价商品<span>3</span></li>
+						<li>库存紧张<span>3</span></li>
+					</ul>
+					<div class="Car-count list-top">
+						    <p>
+						    	<span>已选商品</span>
+						    	<span class=" no-transport-cost">(不含运费)</span>
+						    	<span >￥<span class="Car-all-count-span"></span></span>
+						    </p>
+						    <input type="button"  value="结算" class="Car-all-count-button"/>
+					</div>
+				</div>
+				<div class="Car-swicth-line">
+					<div class="Car-swicth-line-current">
+						<div class="current"></div>
+						<div ></div>
+						<div ></div>
+					</div>
+					
+				</div>
+				<div class="Car-product-info">
+					<div>
+						<label for="" class="all-product"></label>
+						<span>全选</span>
+					</div>
+					<div><span>商品信息</span></div>
+					<div></div>
+					<div>单价</div>
+					<div>数量</div>
+					<div>金额</div>
+					<div>操作</div>
+				</div>
+				<div class="shop-info-head">
+					<label for="all-product" class="all-product"></label>
+					<span class="shop-info-head-logo"></span>
+					<span>店铺：</span>
+					<span class="tmaoll-market">天猫超市</span>
+					<span class="shop-info-head-serviceIcon"></span>
+				</div>
+				<div class="Car-product-tab-list">
+					<div class="Car-product-tab-list-top">
+						<span>超值换购活动</span>
+						<span>满100</span>
+					</div>
+					<div class="Car-product-content">
+						<div class="product-checkbox">
+							<label for="" class="unit-checkbox"></label>
+						</div>
+						<div class="Car-product-content-info">
+							<img src="../img/apple.jpg" alt="" />
+							<p class="Car-product-des">韩国进口好餐得辣椒酱韩式石锅拌饭辣酱烤肉火锅炒年糕辣酱500g</p>
+							<div class="kong-div"></div>
+							<div class="elseMerchant-logo">
+								<span class="merchant-logo-one">
+									<img src="../img/sevenhotel.png" alt="" />
+								</span>
+								<span class="merchant-logo-two">
+									<img src="../img/xcard.png"/>
+								</span>
+								<span class="merchant-logo-three">
+									<img src="../img/safeguard.png"/>
+								</span>
+							</div>
+						</div>
+						<div class="kong-inner"></div>
+						<div class="product-unit-price-wrap">
+							<span>￥<span class="product-unit-price">5.55</span></span>
+						</div>
+						<div class="product-unit-sale">
+							<div class="product-unit-sale-content-wrap">
+								<span class="sale-sub">-</span>
+								<div class="inputwrap">
+									<input type="text" value="0" class="product-unit-sale-input add-old num"/>
+									<!--<input type="text" name="" id="" value="2" class="product-unit-sale-input add-new"/>-->
+								</div>
+								
+								<span class="sale-add">+</span>
+							</div>
+							
+						</div>
+						<div class="product-unit-all-price-wrap-wrap">
+							<div class="product-unit-all-price-wrap">
+								<p>￥<span class="product-unit-all-price">0</span></p>
+								<span>(<span>0</span>)kg</span>
+							</div>
+							
+						</div>
+						<div class="product-handle">
+							<div class="product-handle-wrap">
+								<p ><span class="product-del">删除</span></p>
+								<span class="pushFavorite">移入收藏夹</span>
+							</div>
+							
+						</div>
+					</div>
+					<div class="Car-product-content">
+						<div class="product-checkbox">
+							<label for="" class="unit-checkbox"></label>
+						</div>
+						<div class="Car-product-content-info">
+							<img src="../img/apple.jpg" alt="" />
+							<p class="Car-product-des">韩国进口好餐得辣椒酱韩式石锅拌饭辣酱烤肉火锅炒年糕辣酱500g</p>
+							<div class="kong-div"></div>
+							<div class="elseMerchant-logo">
+								<span class="merchant-logo-one">
+									<img src="../img/sevenhotel.png" alt="" />
+								</span>
+								<span class="merchant-logo-two">
+									<img src="../img/xcard.png"/>
+								</span>
+								<span class="merchant-logo-three">
+									<img src="../img/safeguard.png"/>
+								</span>
+							</div>
+						</div>
+						<div class="kong-inner"></div>
+						<div class="product-unit-price-wrap">
+							<span>￥<span class="product-unit-price">6.5</span></span>
+						</div>
+						<div class="product-unit-sale">
+							<div class="product-unit-sale-content-wrap">
+								<span class="sale-sub">-</span>
+								<div class="inputwrap">
+									<input type="text" value="0" class="product-unit-sale-input add-old num"/>
+									<!--<input type="text" name="" id="" value="2" class="product-unit-sale-input add-new"/>-->
+								</div>
+								<span class="sale-add">+</span>
+							</div>
+							
+						</div>
+						<div class="product-unit-all-price-wrap-wrap">
+							<div class="product-unit-all-price-wrap">
+								<p>￥<span class="product-unit-all-price">0</span></p>
+								<span>(<span>0</span>)kg</span>
+							</div>
+							
+						</div>
+						<div class="product-handle">
+							<div class="product-handle-wrap">
+								<p ><span class="product-del">删除</span></p>
+								<span class="pushFavorite">移入收藏夹</span>
+							</div>
+							
+						</div>
+					</div>
+					<div class="Car-product-content">
+						<div class="product-checkbox">
+							<label for="" class="unit-checkbox"></label>
+						</div>
+						<div class="Car-product-content-info">
+							<img src="../img/apple.jpg" alt="" />
+							<p class="Car-product-des">韩国进口好餐得辣椒酱韩式石锅拌饭辣酱烤肉火锅炒年糕辣酱500g</p>
+							<div class="kong-div"></div>
+							<div class="elseMerchant-logo">
+								<span class="merchant-logo-one">
+									<img src="../img/sevenhotel.png" alt="" />
+								</span>
+								<span class="merchant-logo-two">
+									<img src="../img/xcard.png"/>
+								</span>
+								<span class="merchant-logo-three">
+									<img src="../img/safeguard.png"/>
+								</span>
+							</div>
+						</div>
+						<div class="kong-inner"></div>
+						<div class="product-unit-price-wrap">
+							<span>￥<span class="product-unit-price">5.5</span></span>
+						</div>
+						<div class="product-unit-sale">
+							<div class="product-unit-sale-content-wrap">
+								<span class="sale-sub">-</span>
+								<div class="inputwrap">
+									<input type="text" value="0" class="product-unit-sale-input add-old num"/>
+									<!--<input type="text" name="" id="" value="2" class="product-unit-sale-input add-new"/>-->
+								</div>								
+								<span class="sale-add">+</span>
+							</div>
+							
+						</div>
+						<div class="product-unit-all-price-wrap-wrap">
+							<div class="product-unit-all-price-wrap">
+								<p>￥<span class="product-unit-all-price">0</span></p>
+								<span>(<span>0</span>)kg</span>
+							</div>
+							
+						</div>
+						<div class="product-handle">
+							<div class="product-handle-wrap">
+								<p ><span class="product-del">删除</span></p>
+								<span class="pushFavorite">移入收藏夹</span>
+							</div>
+							
+						</div>
+					</div>
+					<div class="Car-product-content">
+						<div class="product-checkbox">
+							<label for="" class="unit-checkbox"></label>
+						</div>
+						<div class="Car-product-content-info">
+							<img src="../img/apple.jpg" alt="" />
+							<p class="Car-product-des">韩国进口好餐得辣椒酱韩式石锅拌饭辣酱烤肉火锅炒年糕辣酱500g</p>
+							<div class="kong-div"></div>
+							<div class="elseMerchant-logo">
+								<span class="merchant-logo-one">
+									<img src="../img/sevenhotel.png" alt="" />
+								</span>
+								<span class="merchant-logo-two">
+									<img src="../img/xcard.png"/>
+								</span>
+								<span class="merchant-logo-three">
+									<img src="../img/safeguard.png"/>
+								</span>
+							</div>
+						</div>
+						<div class="kong-inner"></div>
+						<div class="product-unit-price-wrap">
+							<span>￥<span class="product-unit-price">5.5</span></span>
+						</div>
+						<div class="product-unit-sale">
+							<div class="product-unit-sale-content-wrap">
+								<span class="sale-sub">-</span>
+								<div class="inputwrap">
+									<input type="text" value="0" class="product-unit-sale-input add-old num"/>
+									<!--<input type="text" name="" id="" value="2" class="product-unit-sale-input add-new"/>-->
+								</div>								
+								<span class="sale-add">+</span>
+							</div>
+							
+						</div>
+						<div class="product-unit-all-price-wrap-wrap">
+							<div class="product-unit-all-price-wrap">
+								<p>￥<span class="product-unit-all-price">0</span></p>
+								<span>(<span>0</span>)kg</span>
+							</div>
+							
+						</div>
+						<div class="product-handle">
+							<div class="product-handle-wrap">
+								<p ><span class="product-del">删除</span></p>
+								<span class="pushFavorite">移入收藏夹</span>
+							</div>
+							
+						</div>
+					</div>
+					<div class="Car-product-content">
+						<div class="product-checkbox">
+							<label for="" class="unit-checkbox"></label>
+						</div>
+						<div class="Car-product-content-info">
+							<img src="../img/apple.jpg" alt="" />
+							<p class="Car-product-des">韩国进口好餐得辣椒酱韩式石锅拌饭辣酱烤肉火锅炒年糕辣酱500g</p>
+							<div class="kong-div"></div>
+							<div class="elseMerchant-logo">
+								<span class="merchant-logo-one">
+									<img src="../img/sevenhotel.png" alt="" />
+								</span>
+								<span class="merchant-logo-two">
+									<img src="../img/xcard.png"/>
+								</span>
+								<span class="merchant-logo-three">
+									<img src="../img/safeguard.png"/>
+								</span>
+							</div>
+						</div>
+						<div class="kong-inner"></div>
+						<div class="product-unit-price-wrap">
+							<span>￥<span class="product-unit-price">5.5</span></span>
+						</div>
+						<div class="product-unit-sale">
+							<div class="product-unit-sale-content-wrap">
+								<span class="sale-sub">-</span>
+								<div class="inputwrap">
+									<input type="text" value="0" class="product-unit-sale-input add-old num"/>
+									<!--<input type="text" name="" id="" value="2" class="product-unit-sale-input add-new"/>-->
+								</div>								
+								<span class="sale-add">+</span>
+							</div>
+							
+						</div>
+						<div class="product-unit-all-price-wrap-wrap">
+							<div class="product-unit-all-price-wrap">
+								<p>￥<span class="product-unit-all-price">0</span></p>
+								<span>(<span>0</span>)kg</span>
+							</div>
+							
+						</div>
+						<div class="product-handle">
+							<div class="product-handle-wrap">
+								<p ><span class="product-del">删除</span></p>
+								<span class="pushFavorite">移入收藏夹</span>
+							</div>
+							
+						</div>
+					</div>
+					<div class="Car-product-content">
+						<div class="product-checkbox">
+							<label for="" class="unit-checkbox"></label>
+						</div>
+						<div class="Car-product-content-info">
+							<img src="../img/apple.jpg" alt="" />
+							<p class="Car-product-des">韩国进口好餐得辣椒酱韩式石锅拌饭辣酱烤肉火锅炒年糕辣酱500g</p>
+							<div class="kong-div"></div>
+							<div class="elseMerchant-logo">
+								<span class="merchant-logo-one">
+									<img src="../img/sevenhotel.png" alt="" />
+								</span>
+								<span class="merchant-logo-two">
+									<img src="../img/xcard.png"/>
+								</span>
+								<span class="merchant-logo-three">
+									<img src="../img/safeguard.png"/>
+								</span>
+							</div>
+						</div>
+						<div class="kong-inner"></div>
+						<div class="product-unit-price-wrap">
+							<span>￥<span class="product-unit-price">6.8</span></span>
+						</div>
+						<div class="product-unit-sale">
+							<div class="product-unit-sale-content-wrap">
+								<span class="sale-sub">-</span>
+								<div class="inputwrap">
+									<input type="text" value="0" class="product-unit-sale-input add-old num"/>
+									<!--<input type="text" name="" id="" value="2" class="product-unit-sale-input add-new"/>-->
+								</div>
+								<span class="sale-add">+</span>
+							</div>
+							
+						</div>
+						<div class="product-unit-all-price-wrap-wrap">
+							<div class="product-unit-all-price-wrap">
+								<p>￥<span class="product-unit-all-price">0</span></p>
+								<span>(<span>0</span>)kg</span>
+							</div>
+							
+						</div>
+						<div class="product-handle">
+							<div class="product-handle-wrap">
+								<p ><span class="product-del">删除</span></p>
+								<span class="pushFavorite">移入收藏夹</span>
+							</div>
+							
+						</div>
+					</div>
+					<div class="Car-product-tab-list-bottom">
+						<span>享满<span class="near-price">88.0</span>元(<span class="all-product-weight">50.0</span>kg以内)包邮</span>
+					</div>
+				</div>
+				<div class="shop-info-foot">
+					<div class="shop-info-foot-operations">
+						<label for="all-product" class="all-product"></label>
+						<span>全选</span>
+						<span class="all-del">删除</span>
+						<span>移入收藏夹</span>
+						<span>分享</span>
+					</div>
+					<div class="Car-count list-bottom">
+						<p>
+							<span>已选商品</span>
+						    <span class=" no-transport-cost">(不含运费)：</span>
+							<span >￥<span class="Car-all-count-span">136.80</span></span>
+						</p>
+							<input type="button" value="结算"  class="Car-all-count-button"/>
+					</div>
+				</div>
+			</div>
+			<div class="hot-product">
+				<h4>每日精选:<span>热卖的日用品，凑满88元免运费</span></h4>
+				<ul>
+					<li class="current">凑单必备
+						<div class="hot-product-content current">
+							<ul class="row-one">
+								<li>
+								<a href=""><img src="../img/TB1subSFVXXXXbkXVXXXXXXXXXX_!!0-item_pic.jpg_60x90q90.jpg" alt="" /></a>
+									<ul class="hot-product-ul-des" >
+										<li><a href="" class="product-des">高洁马桶清洁剂蓝泡泡自动除臭洁厕宝50g 除菌除异味</a></li>
+										<li>
+											<span>
+												<span class="original-price">¥2.8</span>
+												<span class="discount-price">¥0.95</span>
+											</span>
+										</li>
+										<li>
+											<span class="add-Car">加入购物车</span>
+										</li> 
+									</ul>	
+								</li>
+								<li>
+									<a href=""><img src="../img/TB2m5QmkeGSBuNjSspbXXciipXa_!!725677994.jpg_360x360q50.jpg" alt="" /></a>
+									<ul class="hot-product-ul-des" >
+										<li><a href="" class="product-des">高洁马桶清洁剂蓝泡泡自动除臭洁厕宝50g 除菌除异味</a></li>
+										<li>
+											<span>
+												<span class="original-price">¥2.8</span>
+												<span class="discount-price">¥0.95</span>
+											</span>
+										</li>
+										<li>
+											<span class="add-Car">加入购物车</span>
+										</li> 
+									</ul>	
+								</li>
+								<li>
+									<a href=""><img src="../img/TB1subSFVXXXXbkXVXXXXXXXXXX_!!0-item_pic.jpg_60x90q90.jpg" alt="" /></a>
+									<ul class="hot-product-ul-des" >
+										<li><a href="" class="product-des">高洁马桶清洁剂蓝泡泡自动除臭洁厕宝50g 除菌除异味</a></li>
+										<li>
+											<span>
+												<span class="original-price">¥2.8</span>
+												<span class="discount-price">¥0.95</span>
+											</span>
+										</li>
+										<li>
+											<span class="add-Car">加入购物车</span>
+										</li> 
+									</ul>	
+								</li>
+								<li>
+									<a href=""><img src="../img/TB1subSFVXXXXbkXVXXXXXXXXXX_!!0-item_pic.jpg_60x90q90.jpg" alt="" /></a>
+									<ul class="hot-product-ul-des" >
+										<li><a href="" class="product-des">高洁马桶清洁剂蓝泡泡自动除臭洁厕宝50g 除菌除异味</a></li>
+										<li>
+											<span>
+												<span class="original-price">¥2.8</span>
+												<span class="discount-price">¥0.95</span>
+											</span>
+										</li>
+										<li>
+											<span class="add-Car">加入购物车</span>
+										</li> 
+									</ul>	
+								</li>
+								<li>
+									<a href=""><img src="../img/TB1subSFVXXXXbkXVXXXXXXXXXX_!!0-item_pic.jpg_60x90q90.jpg" alt="" /></a>
+									<ul class="hot-product-ul-des" >
+										<li><a href="" class="product-des">高洁马桶清洁剂蓝泡泡自动除臭洁厕宝50g 除菌除异味</a></li>
+										<li>
+											<span>
+												<span class="original-price">¥2.8</span>
+												<span class="discount-price">¥0.95</span>
+											</span>
+										</li>
+										<li>
+											<span class="add-Car">加入购物车</span>
+										</li> 
+									</ul>	
+								</li>
+							</ul>
+							<ul class="row-two">
+								<li>
+									<a href=""><img src="../img/TB1subSFVXXXXbkXVXXXXXXXXXX_!!0-item_pic.jpg_60x90q90.jpg" alt="" /></a>
+									<ul class="hot-product-ul-des" >
+										<li><a href="" class="product-des">高洁马桶清洁剂蓝泡泡自动除臭洁厕宝50g 除菌除异味</a></li>
+										<li>
+											<span>
+												<span class="original-price">¥2.8</span>
+												<span class="discount-price">¥0.95</span>
+											</span>
+										</li>
+										<li>
+											<span class="add-Car">加入购物车</span>
+										</li> 
+									</ul>	
+								</li>
+								<li>
+									<a href=""><img src="../img/TB1subSFVXXXXbkXVXXXXXXXXXX_!!0-item_pic.jpg_60x90q90.jpg" alt="" /></a>
+									<ul class="hot-product-ul-des" >
+										<li><a href="" class="product-des">高洁马桶清洁剂蓝泡泡自动除臭洁厕宝50g 除菌除异味</a></li>
+										<li>
+											<span>
+												<span class="original-price">¥2.8</span>
+												<span class="discount-price">¥0.95</span>
+											</span>
+										</li>
+										<li>
+											<span class="add-Car">加入购物车</span>
+										</li> 
+									</ul>	
+								</li>
+								<li>
+									<a href=""><img src="../img/TB1subSFVXXXXbkXVXXXXXXXXXX_!!0-item_pic.jpg_60x90q90.jpg" alt="" /></a>
+									<ul class="hot-product-ul-des" >
+										<li><a href="" class="product-des">高洁马桶清洁剂蓝泡泡自动除臭洁厕宝50g 除菌除异味</a></li>
+										<li>
+											<span>
+												<span class="original-price">¥2.8</span>
+												<span class="discount-price">¥0.95</span>
+											</span>
+										</li>
+										<li>
+											<span class="add-Car">加入购物车</span>
+										</li> 
+									</ul>	
+								</li>
+								<li>
+									<a href=""><img src="../img/TB1subSFVXXXXbkXVXXXXXXXXXX_!!0-item_pic.jpg_60x90q90.jpg" alt="" /></a>
+									<ul class="hot-product-ul-des" >
+										<li><a href="" class="product-des">高洁马桶清洁剂蓝泡泡自动除臭洁厕宝50g 除菌除异味</a></li>
+										<li>
+											<span>
+												<span class="original-price">¥2.8</span>
+												<span class="discount-price">¥0.95</span>
+											</span>
+										</li>
+										<li>
+											<span class="add-Car">加入购物车</span>
+										</li> 
+									</ul>	
+								</li>
+								<li>
+									<a href=""><img src="../img/TB1subSFVXXXXbkXVXXXXXXXXXX_!!0-item_pic.jpg_60x90q90.jpg" alt="" /></a>
+									<ul class="hot-product-ul-des" >
+										<li><a href="" class="product-des">高洁马桶清洁剂蓝泡泡自动除臭洁厕宝50g 除菌除异味</a></li>
+										<li>
+											<span>
+												<span class="original-price">¥2.8</span>
+												<span class="discount-price">¥0.95</span>
+											</span>
+										</li>
+										<li>
+											<span class="add-Car">加入购物车</span>
+										</li> 
+									</ul>	
+								</li>
+							</ul>
+								
+							
+						</div>
+					</li>
+					<li>热销爆品
+						<div class="hot-product-content hot2 ">
+							<ul class="row-one">
+								<li>
+									<a href=""><img src="../img/TB1subSFVXXXXbkXVXXXXXXXXXX_!!0-item_pic.jpg_60x90q90.jpg" alt="" /></a>
+									<ul class="hot-product-ul-des" >
+										<li><a href="" class="product-des">高洁马桶清洁剂蓝泡泡自动除臭洁厕宝50g 除菌除异味</a></li>
+										<li>
+											<span>
+												<span class="original-price">¥2.8</span>
+												<span class="discount-price">¥0.95</span>
+											</span>
+										</li>
+										<li>
+											<span class="add-Car">加入购物车</span>
+										</li> 
+									</ul>	
+								</li>
+								<li>
+									<a href=""><img src="../img/TB1subSFVXXXXbkXVXXXXXXXXXX_!!0-item_pic.jpg_60x90q90.jpg" alt="" /></a>
+									<ul class="hot-product-ul-des" >
+										<li><a href="" class="product-des">高洁马桶清洁剂蓝泡泡自动除臭洁厕宝50g 除菌除异味</a></li>
+										<li>
+											<span>
+												<span class="original-price">¥2.8</span>
+												<span class="discount-price">¥0.95</span>
+											</span>
+										</li>
+										<li>
+											<span class="add-Car">加入购物车</span>
+										</li> 
+									</ul>	
+								</li>
+								<li>
+									<a href=""><img src="../img/TB1subSFVXXXXbkXVXXXXXXXXXX_!!0-item_pic.jpg_60x90q90.jpg" alt="" /></a>
+									<ul class="hot-product-ul-des" >
+										<li><a href="" class="product-des">高洁马桶清洁剂蓝泡泡自动除臭洁厕宝50g 除菌除异味</a></li>
+										<li>
+											<span>
+												<span class="original-price">¥2.8</span>
+												<span class="discount-price">¥0.95</span>
+											</span>
+										</li>
+										<li>
+											<span class="add-Car">加入购物车</span>
+										</li> 
+									</ul>	
+								</li>
+								<li>
+									<a href=""><img src="../img/TB1subSFVXXXXbkXVXXXXXXXXXX_!!0-item_pic.jpg_60x90q90.jpg" alt="" /></a>
+									<ul class="hot-product-ul-des" >
+										<li><a href="" class="product-des">高洁马桶清洁剂蓝泡泡自动除臭洁厕宝50g 除菌除异味</a></li>
+										<li>
+											<span>
+												<span class="original-price">¥2.8</span>
+												<span class="discount-price">¥0.95</span>
+											</span>
+										</li>
+										<li>
+											<span class="add-Car">加入购物车</span>
+										</li> 
+									</ul>	
+								</li>
+								<li>
+									<a href=""><img src="../img/TB1subSFVXXXXbkXVXXXXXXXXXX_!!0-item_pic.jpg_60x90q90.jpg" alt="" /></a>
+									<ul class="hot-product-ul-des" >
+										<li><a href="" class="product-des">高洁马桶清洁剂蓝泡泡自动除臭洁厕宝50g 除菌除异味</a></li>
+										<li>
+											<span>
+												<span class="original-price">¥2.8</span>
+												<span class="discount-price">¥0.95</span>
+											</span>
+										</li>
+										<li>
+											<span class="add-Car">加入购物车</span>
+										</li> 
+									</ul>	
+								</li>
+							</ul>
+							<ul class="row-two">
+								<li>
+									<a href=""><img src="../img/TB1subSFVXXXXbkXVXXXXXXXXXX_!!0-item_pic.jpg_60x90q90.jpg" alt="" /></a>
+									<ul class="hot-product-ul-des" >
+										<li><a href="" class="product-des">高洁马桶清洁剂蓝泡泡自动除臭洁厕宝50g 除菌除异味</a></li>
+										<li>
+											<span>
+												<span class="original-price">¥2.8</span>
+												<span class="discount-price">¥0.95</span>
+											</span>
+										</li>
+										<li>
+											<span class="add-Car">加入购物车</span>
+										</li> 
+									</ul>	
+								</li>
+								<li>
+									<a href=""><img src="../img/TB1subSFVXXXXbkXVXXXXXXXXXX_!!0-item_pic.jpg_60x90q90.jpg" alt="" /></a>
+									<ul class="hot-product-ul-des" >
+										<li><a href="" class="product-des">高洁马桶清洁剂蓝泡泡自动除臭洁厕宝50g 除菌除异味</a></li>
+										<li>
+											<span>
+												<span class="original-price">¥2.8</span>
+												<span class="discount-price">¥0.95</span>
+											</span>
+										</li>
+										<li>
+											<span class="add-Car">加入购物车</span>
+										</li> 
+									</ul>	
+								</li>
+								<li>
+									<a href=""><img src="../img/TB1subSFVXXXXbkXVXXXXXXXXXX_!!0-item_pic.jpg_60x90q90.jpg" alt="" /></a>
+									<ul class="hot-product-ul-des" >
+										<li><a href="" class="product-des">高洁马桶清洁剂蓝泡泡自动除臭洁厕宝50g 除菌除异味</a></li>
+										<li>
+											<span>
+												<span class="original-price">¥2.8</span>
+												<span class="discount-price">¥0.95</span>
+											</span>
+										</li>
+										<li>
+											<span class="add-Car">加入购物车</span>
+										</li> 
+									</ul>	
+								</li>
+								<li>
+									<a href=""><img src="../img/TB1subSFVXXXXbkXVXXXXXXXXXX_!!0-item_pic.jpg_60x90q90.jpg" alt="" /></a>
+									<ul class="hot-product-ul-des" >
+										<li><a href="" class="product-des">高洁马桶清洁剂蓝泡泡自动除臭洁厕宝50g 除菌除异味</a></li>
+										<li>
+											<span>
+												<span class="original-price">¥2.8</span>
+												<span class="discount-price">¥0.95</span>
+											</span>
+										</li>
+										<li>
+											<span class="add-Car">加入购物车</span>
+										</li> 
+									</ul>	
+								</li>
+								<li>
+									<a href=""><img src="../img/TB1subSFVXXXXbkXVXXXXXXXXXX_!!0-item_pic.jpg_60x90q90.jpg" alt="" /></a>
+									<ul class="hot-product-ul-des" >
+										<li><a href="" class="product-des">高洁马桶清洁剂蓝泡泡自动除臭洁厕宝50g 除菌除异味</a></li>
+										<li>
+											<span>
+												<span class="original-price">¥2.8</span>
+												<span class="discount-price">¥0.95</span>
+											</span>
+										</li>
+										<li>
+											<span class="add-Car">加入购物车</span>
+										</li> 
+									</ul>	
+								</li>
+							</ul>
+								
+							
+						</div>
+					</li>
+				</ul>
+				
+				
+			</div>
+		</section>
+		<footer>
+			
+			<div class="footer-tmaodes">		
+				<img src="../img/TB1ijJ1HFXXXXayXVXXFq5g_FXX-112-40.png" alt=""  class="logo"/>
+				<ul class="ul-one">
+					<li><a href="">购物指南</a></li>
+					<li><a href="">购物流程</a></li>
+					<li><a href="">配送时效说明</a></li>
+					<li><a href="">配送区域及费用</a></li>
+					<li><a href="">购买生鲜须知</a></li>
+					<li><a href="">发票流程</a></li>
+				</ul>
+				<ul class="ul-two">
+					<li><a href="">售后服务</a></li>
+					<li><a href="">退货规则</a></li>
+					<li><a href="">退货指南</a></li>
+					<li><a href="">保质期说明</a></li>
+					<li><a href="">客服：4006308910</a></li>
+				
+				</ul>	
+				<ul class="ul-three">
+					<li><a href="">自助服务</a></li>
+					<li><a href="">订单物流查询</a></li>
+					<li><a href="">我的购物车</a></li>
+					<li><a href="">我的现金券</a></li>
+					<li><a href="">购物常见问题</a></li>
+					<li><a href="">建议反馈</a></li>
+				</ul>
+				<ul class="ul-four">
+					<li><a href="">商家服务</a></li>
+					<li><a href="">关于天猫超市</a></li>
+					<li><a href="">入驻天猫超市</a></li>
+					<li><a href="">商家常见问题</a></li>
+				</ul>
+				<ul class="ul-five">
+					<li><a href="">随时随地逛</a></li>
+					<li><a href=""><img src="../img/T1zuSAFRJbXXaSJVsE-115-115.png" alt="" /></a></li>
+				</ul>
+			</div>
+			<div class="footer-links"> 
+				<div class="foot_box">
+					<ul class="alibaba">
+						<li><a href="">关于天猫</a> </li>
+						<li><a href="">帮助中心</a> </li>
+						<li><a href="">开放平台</a> </li>
+						<li><a href="">诚聘英才</a> </li>
+						<li><a href="">联系我们</a> </li>
+						<li><a href="">网站合作</a> </li>
+						<li><a href="">法律声明</a> </li>
+						<li><a href="">隐私权政策</a> </li>
+						<li><a href="">知识产权</a> </li>
+						<li><a href="">廉正举报</a> </li>			         
+					</ul>
+					<ul class="alibaba">  
+						<li><a href="">阿里巴巴集团</a></li>
+						<li><a href="">淘宝网</a></li>
+						<li><a href="">天猫</a></li>
+						<li><a href="">聚划算</a></li>
+						<li><a href="">全球速卖通</a></li>
+						<li><a href="">阿里巴巴国际交易市场</a></li>
+						<li><a href="">1688</a></li>
+						<li><a href="">阿里妈妈</a></li>
+						<li><a href="">飞猪</a></li>
+						<li><a href="">阿里云计算</a></li>
+						<li><a href="">AliOS</a></li>
+						<li><a href="">阿里通信</a></li>
+						<li><a href="">万网</a></li>
+						<li><a href="">高德</a></li>
+						<li><a href="">UC</a></li>
+						<li><a href="">友盟</a></li>
+						<li><a href="">虾米</a></li>
+						<li><a href="">钉钉</a></li>
+						<li><a href="">支付宝</a></li>
+					</ul>
+					   
+					<p>
+						<span>增值电信业务经营许可证：</span><a href=""> 浙B2-20110446</a>
+						<span>网络文化经营许可证：</span><a href="">  浙网文[2015]0295-065号</a>
+						<a href="">12318举报</a>
+						<span>出版物网络交易平台服务经营备案证：<a href="">新出发浙备字第001号</a></span>
+					</p>
+					  
+					<p>
+						<span>互联网违法和不良信息举报电话：</span><a href=""> 0571-81683755 blxxjb@alibaba-inc.com</a>
+						<span> 互联网药品信息服务资质证书编号：</span><a href="">  浙-（经营性）-2017-0005</a>
+						<a href=""> <span id="gongan"></span>浙公网安备 33010002000120号</a>
+						<p style="color:#999999">
+							（浙）网械平台备字[2018]第00002号
+						</p>
+						<p>			
+						<span style="color:#686868">© 2003-2018 TMALL.COM 版权所有</span>
+						</p>
+						
+					</p>
+				</div>	
+				<div class="footer-contact">
+					<span><a href=""></a></span>
+					<span><a href=""></a></span>
+				</div>
+			</div>	
+		</footer>
+		<script>
+
+		</script>
+	</body>
+</html>

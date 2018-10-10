@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>免费注册</title>
+	<link rel="stylesheet" type="text/css" href="../css/cssreset.css">
+	<link rel="stylesheet" type="text/css" href="../css/register.css">
+	<link href="../img/TB1XlF3RpXXXXc6XXXXXXXXXXXX-16-16.png" rel="shortcut icon" type="image/x-icon">
+	
+</head>
+<body>
+	<section class="registerMain" id="registerS">
+		<header class="registerTop">
+			<ul class="navResUl">
+				<li class="currentRes">
+					<svg class="icon" aria-hidden="true">
+					  <use xlink:href="#icon-1"></use>
+					</svg>
+					<a href="#">设置用户名</a>
+				</li>
+				<li>
+					<svg class="icon" aria-hidden="true">
+					  <use xlink:href="#icon-2"></use>
+					</svg>
+					<a href="#">填写帐号信息</a>
+				</li>
+				<li>
+					<svg class="icon" aria-hidden="true">
+					  <use xlink:href="#icon-3"></use>
+					</svg>
+					<a href="#">设置支付方式</a>
+				</li>
+				<li>
+					<svg class="icon" aria-hidden="true">
+					  <use xlink:href="#icon-4"></use>
+					</svg>
+					<a href="#">支付成功</a>
+				</li>
+			</ul>
+		</header>
+
+
+		<div class="agrument">
+			<span class="fal"><a href="#">×</a></span>
+			<h3>注册协议</h3>
+			<p><strong>【审慎阅读】</strong>您在申请注册流程中点击同意前，应当认真阅读以下协议。<strong>请您务必审慎阅读、充分理解协议中相关条款内容，其中包括：</strong></p>
+			<p>
+				1、<strong>与您约定免除或限制责任的条款；</strong>
+			</p>
+			<p>
+				2、<strong>与您约定法律适用和管辖的条款；</strong>
+			</p>
+			<p>
+				3、<strong>其他以粗体下划线标识的重要条款</strong>
+			</p>
+			<p>
+				如您对协议有任何疑问，可向平台客服咨询。
+			</p>
+			<p>
+				<strong>【特别提示】</strong>当您按照注册页面提示填写信息、阅读并同意协议且完成全部注册程序后，即表示您已充分阅读、理解并接受协议的全部内容。如您因平台服务与淘宝发生争议的，适用《淘宝平台服务协议》处理。如您在使用平台服务过程中与其他用户发生争议的，依您与其他用户达成的协议处理。
+			</p>
+			<p>
+				<strong>阅读协议的过程中，如果您不同意相关协议或其中任何条款约定，您应立即停止注册程序。</strong>
+			</p>
+			<p>
+				<a href="#">《淘宝平台服务协议》</a>
+			</p>
+			<p>
+				<a href="#">《法律声明及隐私权政策》</a>
+			</p>
+			<p>
+				<a href="#">《支付宝服务协议》</a>
+			</p>
+			<p><button id="agree">同意协议</button></p>
+		</div>
+
+
+		
+		<!-- 设置用户名： -->
+		<div class="verification1 reg">
+			<form action="" name="v1Form">
+				<div class="v1First">
+					<label>手机号</label>
+					<div class="mobile">
+						<span id="area">中国大陆</span>
+						<span id="numHead">+86</span>
+						<span></span>
+						<div class="mobileSel">
+							<ul class="mobileSelUl">
+								<li class="currentLi"><span>中国大陆</span><span>+86</span></li>
+								<li><span>中国台湾地区</span><span>+886</span></li>
+								<li><span>中国香港</span><span>+852</span></li>
+								<li><span>马来西亚</span><span>+60</span></li>
+								<li><span>中国大陆</span><span>+86</span></li>
+								<li><span>中国台湾地区</span><span>+886</span></li>
+								<li><span>中国香港</span><span>+852</span></li>
+								<li><span>马来西亚</span><span>+60</span></li>
+							</ul>
+						</div>
+					</div>
+					<input type="text" name="mobile" placeholder="请输入你的手机号码" class="mobileNum">
+					<span id="mobSpan"></span>
+				</div>
+				<div class="verification1Div">
+					<p class="dragP">
+						<label>验证</label>	
+					</p>
+					<div class="dragBottom">
+						<span class="dragTop">>></span>
+						<div class="progress_bar_fg"></div>
+					请按住滑块，拖动到最右边</div>
+				</div>
+				<p><button id="getNext">下一步</button></p>
+			</form>
+		</div>
+
+		<!-- 填写账户信息 -->
+		<div class="verification2 reg">
+			<form action="" name="v2Form">
+				<p><label for="">登录名</label><span class="loginName"></span></p>
+				<p><label for="">请设置登录密码</label>登录时验证，保护账号信息</p>
+				<p><label for="">登录密码</label><input type="password" name="password" placehold	er="设置你的登录密码"></p>
+				<p><label for="">密码确认</label><input type="password" name="rePassword" placeholder="请再次输入你的密码"></p>
+				<p><label for="">设置会员名</label></p>
+				<p><label for="">登录名</label><input type="text" placeholder="会员名一旦设置成功，无法修改"></p>
+				<p><label for=""></label><button>提交</button></p>
+			</form>
+		</div>
+
+		<!-- 设置支付方式 -->
+		<div class="verification3 reg">
+			<p><label for="">银行卡号</label><input type="text" name="bankCard"></p>
+			<p><label for="">持卡人姓名</label><input type="text" name="bankCardName"></p>
+			<p>
+				<label for="">证件</label>
+				<select>
+					<option>身份证</option>
+					<option>港澳通行证</option>
+					<option>居住证</option>
+					<option>签证</option>
+				</select>
+				<input type="text" placeholder="">
+			</p>
+			<p><label for="">手机号码</label><input type="text" name="registerNum" placeholder="请输入你要注册的手机号码"><button>获取验证码</button></p>
+			<p><label></label><button>同意协议并确定</button><a href="#">跳过，到下一步</a></p>
+			<p><label></label>查看<a href="#">《快捷支付服务相关协议》</a></p>
+		</div>
+
+	<!-- 小蜜蜂 -->
+		<div class="bee">
+			<div class="fontImg">
+				<svg class="icon" aria-hidden="true">
+				  <use xlink:href="#icon-dianhua"></use>
+				</svg>
+			</div>
+			<p>有问题?</p>
+			<p>找小蜜</p>
+		</div>
+
+		<div class="beeT">
+			<div class="beeTop">
+				<span class="beeLove"></span>
+				<span class="xiaoBeeHead"></span>
+				<span class="xiaoBeeFoot"></span>
+				<p>有问题？找<span>小蜜</span>哦~<span class="beeClose"></span></p>
+			</div>
+			<ul>
+				<li>淘宝账户名是指什么？</li>
+				<li>忘记会员名，怎么找回？</li>
+				<li>忘记淘宝账号密码，怎么找回？</li>
+				<li>手机（停机、丢失等）收不到验证码，怎么办？</li>
+				<li>手机、邮箱正常使用，但是接收不到验证码，怎么办？</li>
+				<a href="#"><span class="xiaoBee">咨询小蜜</span><span class="beeBImg"></span></a>
+			</ul>
+		</div>
+
+	</section>
+
+
+	<!-- 手机扫码，安全登录 -->
+	<div class="sweepBig">
+		<div class="sweepSmall">
+			<div class="login" id="comImg"><i></i></div>
+			<div class="pasLogin"><i></i>密码登录在这里</div>
+			<p>手机扫码，安全登录</p>
+			<div class="sweep">
+				<img src="../img/sweep.png">
+				<p>
+					<i></i>
+					<span>打开</span>
+					<a href="#">手机淘宝</a>
+					<a href="#">手机天猫</a>
+					<span>扫一扫登录</span>
+				</p>
+			</div>
+			<p class="selectedRes">
+				<a href="#">免费注册</a>
+				<a href="#">密码登录</a>
+			</p>
+			<ul>
+				<li>账户无法登录</li>
+				<li>我不是淘宝会员</li>
+			</ul>
+		</div>
+	
+	<!-- 密码登录 -->
+		<div class="loginSmall">
+			<div class="login" id="sweepImg"><i></i></div>
+			<div class="pasLogin"><i></i>扫码登录更安全</div>
+			<p>密码登录</p>
+			<div class="txtPas">
+				<form>
+					<p>
+						<label></label>
+						<input type="text" name="" placeholder="会员名/邮箱/手机号" id="mail" class="ipt">
+					</p>
+					<p>
+						<label></label>
+						<input type="password" name="" id="passwordIpu" class="ipt">
+					</p>
+					<p>
+						<button class="btnLogon">登录</button>
+					</p>
+				</form>
+			</div>
+			<p class="selectedRes">
+				<a href="#">忘记密码</a>
+				<a href="#">忘记会员名</a>
+				<a href="#">免费注册</a>
+			</p>
+			<ul>
+				<li>账户无法登录</li>
+				<li>我不是淘宝会员</li>
+			</ul>
+		</div>
+	</div>
+	<script src="../js/iconfont1.js"></script>
+	<script type="text/javascript" src="../js/jquery-1.11.1.js"></script>
+	<script type="text/javascript" src="../js/register.js"></script>
+</body>
+</html>

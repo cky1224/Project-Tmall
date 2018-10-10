@@ -1,0 +1,652 @@
+/*字体图标引入的css代码*/
+.icon {
+   width: 1em; height: 1em;
+   vertical-align: -0.15em;
+   fill: currentColor;
+   /*overflow: hidden;*/
+}
+
+section.topAllProduct{
+	width: 1190px;
+
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	/*border: 1px solid red;*/
+}
+/****************产品分类顶部******************************/
+section .section-top{
+	width: 100%;
+    height: 628px;
+    margin-bottom: 20px;
+}
+section.topAllProduct div.classificationNav{
+	width: 1190px;
+	height: 37px;
+}
+section.topAllProduct div.classificationNav.scroll{
+    position: fixed;
+    top: 0;
+    background: #fff;
+    z-index: 9999;
+}
+div.classification{
+	width: 240px;
+	height: 36px;
+	background-color: #2f2f2f;
+	color: #fff;
+	font-size: 16px;
+	float: left;
+	font-weight: 700;
+	text-align: center;
+	line-height: 36px
+}
+ul.cTopUl li{
+	float: left;
+	position: relative;
+	/*border-right: 1px solid #d9d9d9;*/
+}
+/*伪对象*/
+ul.cTopUl li::after{
+	content: "";
+	width: 2px;
+	height: 20px;
+	/*line-height: 20px;*/
+	
+	top: 50%;
+	margin-top: 10px;
+	position: absolute;
+	background: #d9d9d9;
+	right: 0;
+	top: 0;
+}
+ul.cTopUl li a{
+	font-size: 16px;
+    color: #333;
+    line-height: 36px;
+    /*margin-left: -1px;*/
+    padding: 0 25px;
+    text-decoration: none;
+    font-weight: 700;
+}
+ul.cTopUl li a:hover{
+	color: #e22a40;
+}
+div.welfare{
+	width: 410px;
+	height: 36px;
+	float: right;
+	margin-top: 5px;
+	/*border: 1px solid red;*/
+}
+.welfare.scroll{
+	background: #fff;
+
+
+    z-index: 9999999999;
+}
+div.money svg{
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	margin-right: 5px;
+	font-size: 30px;
+	color: #333;
+	/*border: 1px solid red;*/
+	z-index: 2;
+	position: absolute;
+	left: -25px;
+	top: 0;
+}
+div.money::after{
+	content: '';
+	/*display: inline-block;*/
+	position: absolute;
+	width: 32px;
+	height: 32px;
+	left: -22px;
+	top: 0;
+	border-radius: 50%;
+	background-color: white;
+}
+div.welfare>a{
+    /*margin-right: 40px;*/
+    display: inline-block;
+    float: right;
+    margin-right: 20px;
+    text-decoration: none;   
+    padding: 0 10px;
+    font-size: 12px;
+    line-height: 36px;
+    color: #666;
+}
+div.welfare>a:hover{
+	text-decoration: underline;
+}
+div.welfare>a>span{
+	display: inline-block;
+	width: 20px;
+	height: 17px;
+	margin-right: 4px;
+	background:url(../img/welfare.png);
+	vertical-align: middle;
+}
+div.money{
+	width: 226px;
+	height: 32px;
+	float: right;
+	position: relative;
+	background-color: #bf0000;
+	transition: width 0.4s; 
+	padding-left: 20px;
+	box-sizing: border-box;
+	/*z-index: 5;*/
+}
+div.money>span.sMoney{
+	display: inline-block;
+	line-height: 36px;
+	color: #fcff00;
+    font-family: arial;
+    font-size: 12px;
+    position: relative;
+}
+div.money>span.sMoney>strong{
+	font-size: 22px;
+    font-weight: bolder;
+    
+}
+
+div.money>span.sKg{
+	padding-left:5px;
+	color: white;
+}
+div.money>span.triangle{
+	position: absolute;
+	width: 0;
+	height: 0;
+	top: 50%;
+	right: 15px;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid white;
+	transition: all 0.6s;
+}
+div.now{
+	width: 250px;
+}
+div.money:hover span.triangle{
+	transform: rotateX(180deg);
+}
+div.money:hover div.details{
+	/*height: 360px;*/
+	/*display: block;*/
+	/*display: none;*/
+	/*z-index: 3;*/
+}
+div.details{
+	width: 240px;
+	height: 360px;
+	/*height: 0;*/
+	display: none;
+	top: 31px;
+	z-index: 999999;
+	position: absolute;
+	border: 3px solid #bf0000;
+	/*border-top: 0;*/
+	background-color: #fff;
+	/*right: 19px;*/
+	left: 5px;
+	
+	/*transition: all 2s;*/
+}
+div.detailsTop{
+	zoom: 1;
+}
+div.detailsTop::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+div.details div.detailsTop div{
+	float: left;
+	width: 60px;
+	height: 30px;
+	background-color: #f4f4f4;
+	text-align: center;
+	line-height: 30px;
+	font-size: 12px;
+	color: #666666;
+}
+div.details p{
+	font-size: 12px;
+	margin-top: 40px;
+	padding: 32px 20px;
+	text-align: center;
+    color: #333;
+}
+/********左部份**************************/
+/*中间大块*/
+div.classificationMain{
+	margin-top: 5px;
+	border-top: 1px solid black;
+}
+div.cLeft{
+	width: 240px;
+	padding: 0 6px;
+	float: left;
+	box-sizing: border-box;
+	border: 1px solid #e7e7e7;
+	/*overflow:hidden;*/
+	/*border: 1px solid red;*/
+}
+div.cLeft ul.cUl b{
+	width: 20px;
+	height: 74px;
+	position: absolute;
+	top: 0;
+	left: -20px;
+	display: none;
+	background-color: #e00024;
+}
+div.cLeft ul.cUl b i{
+	display: inline-block;
+	width: 0;
+	height: 0;
+	position: absolute;
+	left: 0px;
+	bottom: -10px;
+	border-top:5px solid #aa2633;
+	border-left: 5px solid transparent;
+	border-right: 5px solid #aa2633;
+	border-bottom:  5px solid transparent;
+}
+div.cLeft ul.cUl li{
+	width: 230px;
+	height: 34px;
+	padding: 19px 0;
+	border-bottom: 1px solid #e7e7e7;
+	background-color: #fff;
+	position: relative;
+}
+div.cLeft ul.cUl li:hover{
+	background-color: #e00024;
+}
+div.cLeft ul.cUl li:hover b{
+	display: inline-block;
+}
+div.cLeft ul.cUl li:hover h3 a{
+	color: white;
+}
+ul.cUl li:hover>h3>svg:nth-of-type(2) {
+	color: white;
+}
+ul.cUl li:nth-child(1):hover div.productNav1{
+	z-index: 4;
+	display: block;
+}
+ul.cUl li:nth-child(2):hover div.productNav2{
+	z-index: 4;
+	display: block;
+}
+ul.cUl li:nth-child(3):hover div.productNav3{
+	z-index: 4;
+	display: block;
+}
+ul.cUl li:nth-child(4):hover div.productNav4{
+	z-index: 4;
+	display: block;
+}
+ul.cUl li:nth-child(5):hover div.productNav5{
+	z-index: 4;
+	top: -73px;
+	display: block;
+}
+ul.cUl li:nth-child(6):hover div.productNav6{
+	z-index: 4;
+	top: -146px;
+	display: block;
+}
+ul.cUl li:nth-child(7):hover div.productNav7{
+	z-index: 4;
+	top: -220px;
+	display: block;
+}
+ul.cUl li:nth-child(8):hover div.productNav8{
+	z-index: 4;
+	top: -292px;
+	display: block;
+}
+ul.cUl li>h3>svg:nth-of-type(1){
+	margin-right: 5px;
+	font-size: 20px;
+	color: #e00024;
+}
+ul.cUl li>h3>svg:nth-of-type(2){
+	position: absolute;
+	right: 18px;
+	top: 25px;
+	font-size: 14px;
+	color: #515151;
+}
+ul.cUl li>h3>svg>use{
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	vertical-align: middle;
+}
+ul.cUl li:hover h3>svg>use{
+	color: white;
+}
+div.cLeft ul.cUl li>h3 a{
+	font-size: 14px;
+    font-weight: 700;
+	color: #515151;
+}
+div.cLeft ul.cUl li a:hover{
+	text-decoration: underline;
+}
+ul.cUl li>p{
+	box-sizing: border-box;
+	padding-left: 20px; 
+}
+div.cLeft ul.cUl li>p a{
+	font-size: 14px;
+    font-weight: 700;
+    padding: 0 3px;
+	color: #999;
+}
+div.cLeft ul.cUl a{
+	text-decoration: none;
+}
+
+/*左部份导航栏*/
+div.productNav{
+	width: 992px;
+	height: 357px;
+	border: 4px solid #e31a3a;
+	background-color: #fff;
+	position: absolute;
+	left: 232px;
+	top: 0;
+	display: none;
+}
+div.productNav div.productNavLi{
+	width: 248px;
+	height: 119px;
+	padding: 15px;
+	box-sizing: border-box;
+	float: left;
+	border-right:1px dotted #d3d3d3;
+	overflow: hidden;
+}
+div.productNav div.productNavLeft{
+	width: 744px;
+	height: 357px;
+	position: absolute;
+	left: : 0;
+	top: 0;
+}
+div.productNav div.productNavRight{
+	width: 248px;
+	height: 357px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background: #e7e7e7;
+}
+div.productNavRight div{
+	padding: 20px;
+	box-sizing: border-box;
+	width: 248px;
+	height: 118px;
+	font-size: 12px;
+	font-weight: 400;
+	/*overflow: hidden;*/
+}
+div.productNavRight div p{
+	width: 210px;
+	height: 70px;
+}
+div.productNavRight div a{
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 8px;
+	/*word-wrap: normal; */
+	/*word-break: normal;*/
+}
+div.productNavLi h4 a,div.productNavRight div h4{
+	color: #515151;
+    font-size: 12px;
+    font-weight: 700;
+}
+div.productNavLi  p{
+	width: 217px;
+	height: 90px;
+	font-size: 12px;
+	font-weight: 400;
+	overflow: hidden;
+}
+div.productNavLi p>a{
+	/*float: left;*/
+	display: inline-block;
+	/*width: 78px;*/
+	height: 14px;
+    font-size: 12px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    margin-left: -8px;
+    font-weight: 400;
+    padding-left: 8px; 
+    border-left: 1px solid grey;
+    /*white-space: nowrap;
+    text-overflow: ellipsis;*/
+}
+div.productNavLi a.pRedA{
+	color: red;
+}
+/********中间部份**************************/
+div.cMiddele{
+	width: 750px;
+	float: left;
+	/*overflow: hidden;*/
+}
+div.cMiddele div.cMTurn{
+	width: 750px;
+	height: 291px;
+	position: relative;
+	overflow: hidden;
+	/*border: 1px solid red;*/
+}
+div.cMTurn span.toLeft{
+	position: absolute;
+	width: 33px;
+	height: 64px;
+	cursor: pointer;
+	top: 120px;
+	left: 20px;
+	z-index: 2;
+	display: none;
+	background: url(../img/sprite.png) no-repeat -237px -1869px;
+}
+div.cMTurn span.toRight{
+	position: absolute;
+	top: 120px;
+	width: 33px;
+	height: 64px;
+	cursor: pointer;
+	right: 20px;
+	z-index: 2;
+	display: none;
+	background: url(../img/sprite.png) no-repeat -237px -1936px;
+}
+div.cMTurn:hover span.to{
+	display: block;
+}
+div.cMiddele div.cMTurn ul.imgTurnUl{
+	/*width: 750px;*/
+	width: 7500px;
+	height: 291px;
+	position: absolute;
+	/*overflow: hidden;*/
+}
+div.cMiddele div.cMTurn ul.ulNumber{
+	overflow: hidden;
+	position: absolute;
+	bottom: 5px;
+	right: 10px;
+}
+ul.ulNumber li{
+	width: 18px;
+	height: 18px;
+	background-color: #000;
+	float: left;
+	margin: 0 5px;
+	display: inline-block;
+	border-radius: 50%;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.liCurrent{
+	background-color: orange!important;
+}
+/*div.cPurchaseRow1 ul,div.cPurchaseRow2 ul*/
+div.cPurchaseRow1{
+	height: 120px;
+	/*border: 1px solid red;*/
+}
+div.cPurchaseRow2{
+	height: 172px;
+}
+div.cMiddele div.cMTurn ul li{
+	float: left;
+}
+div.cMiddele div.cPurchaseRow1 ul li{
+	width: 249px;
+	border-left: 1px solid #eee;
+	float: left;
+	transition: all 1s;
+	position: relative;
+}
+div.cMiddele div.cPurchaseRow2 ul li{
+	float: left;
+	transition: all 1s;
+	position: relative;
+}
+.cPurchaseRow1 img{
+	width: 249px;
+	
+}
+.cPurchaseRow2 img{
+	width: 250px;
+}
+div.cPurchaseRow1 ul li:hover,div.cPurchaseRow2 ul li:hover{
+	/*width: 270px;*/
+
+	z-index: 3;
+	transform: scale(1.1);
+	
+}
+/********右边部份**************************/
+div.cRight{
+	width: 190px;
+	float: right;
+}
+div.cRight div.cRight1{
+	box-sizing: border-box;
+    border: 1px solid #faed7d;
+    margin-bottom: 4px;
+	width: 190px;
+}
+div.cRight div.cRight1 div.cRightTitle>span{
+	display: inline-block;
+	width: 20px;
+	height: 17px;
+	margin-right: 4px;
+	background:url(../img/welfare.png);
+	vertical-align: middle;
+}
+div.cRight div.cRight1 div.cRightTitle{
+	height: 36px;
+	line-height: 36px;
+	font-size: 12px;
+	color: #666;
+	background: #ffe401;
+	text-align: center;
+}
+div.cRightContent{
+	width: 190px;
+	height: 196px;
+	padding: 20px 9px 0;
+	border: 1px solid #faed7d;
+    /*border-top: none;*/
+    box-sizing: border-box;
+    background: #fffce0;
+}
+div.cRightContent>a.cRWelfare{
+	display: inline-block;
+	width: 170px;
+	height: 84px;
+	/*padding: 5px;*/
+	/*box-sizing: border-box;*/
+	background: url(../img/drawWelfare.png) no-repeat;
+	/*background-clip: content-box;*/
+	background-position: center;
+}
+div.cRightContent>p{
+	padding-bottom: 4px;
+    font-size: 12px;
+    color: #2f2f2f;
+    line-height: 18px;
+    height: 18px;
+    border-bottom: 1px solid #faed7d;
+}
+div.cRightContent>p>a{
+	color: red;
+}
+div.cRCBottom{
+	width: 170px;
+	height: 64px;
+	/*padding: 7px;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+div.cRightContent>div>a.cRQ{
+	text-decoration: none;
+	display: inline-block;
+	width: 40px;
+	height: 30px;
+	font-size: 12px;
+	/*padding: 2px;*/
+	margin-left: auto;
+	margin-right: auto;
+	color: #2f2f2f;
+	border-right: 1px solid #faed7d;
+}
+div.cRightContent>div>a.cRQ:hover{
+	text-decoration: underline;
+}
+div.cRightContent>div>a.cRQ:nth-child(1)>span{
+	width: 24px;
+	height: 15px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background: url(../img/Coupons.png);
+	background-position: center;
+}
+div.cRightContent>div>a.cRQ:nth-child(2)>span,div.cRightContent>div>a.cRQ:nth-child(3)>span{
+	width: 26px;
+	height: 16px;
+	display: block;
+	background: url(../img/card.png);
+}
+div.cRight div.cRight2{
+	width: 190px;
+}
+div.cRight div.cRight2 img{
+	width: 190px;
+}

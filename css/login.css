@@ -1,0 +1,311 @@
+			*{
+				margin: 0;
+				padding: 0;
+				list-style: none;
+				text-decoration: none;
+				font-family: "微软雅黑";
+			}
+			h4{color: #3c3c3c;}
+			
+			.loginsection{
+				 background-color: rgb(255, 0, 36);
+			}
+			footer{height: 286px;background: #FFFFFF;}
+			.box{width: 1190px;margin: 0 auto;position: relative;}
+			#head_logo{line-height: 95px;}
+			#form_content{
+							position: absolute;
+							width: 350px;
+							height: 404px;
+							background: #FFFFFF;
+							right: 60px;
+							top: 50%;
+							margin-top: -202px;
+					}
+			.bd{
+				width: 350px;
+				height: 317px;
+				position: relative;
+				display: none;
+				/*border: 1px solid;*/
+			}
+			.bd.current{display: block;}
+			.login_pic_center{
+				
+				width:630px ;
+				height: 440px;
+				display:block;
+				/*border: 1px solid;*/
+				position: absolute;
+				top: 80px;
+				left: 78px;
+			}
+			.login_form{
+				width: 300px;
+				height: 257px;
+				margin:42px auto ;
+				/*border: 1px solid;*/
+			}
+			#btnlogin{
+				display: block;
+				width: 300px;
+				color:#FFFFFF;
+				font-size: 14px;
+				background: #ff0036;
+				
+				outline: none;
+				cursor: pointer;
+				border-radius: 3px;
+				border: 0px;
+				text-indent: 0px;
+			}
+			#btnlogin:hover{opacity: 0.8;}
+			form p{margin-top: 26px;position: relative;}
+			form input{
+				
+				border: 1px solid #cbcbcb;
+				/*border-left: 0px;*/
+				vertical-align: top;
+				width: 298px;
+				height: 40px;
+				cursor: text;
+				text-indent: 50px;
+				   
+			}
+			
+			form label{
+				
+				position: absolute;
+				border-left:1px solid #cbcbcb;
+				border-right: 0px;
+				display: inline-block;
+				width: 40px;
+				height: 40px;
+				background: #dddddd;
+				left: 1px;
+				top: 1px;
+				}
+				.userLabel::after{
+					content: "";
+					position: absolute;
+					display: inline-block;
+					left: 50%;
+					margin-left: -11px;
+					top: 50%;
+					margin-top: -11px;
+					width: 20px;
+					height: 20px;
+					background: url(../img/user.png)no-repeat;
+					background-size: 100% 100%;
+				}
+				.pwdLabel::after{
+					content: "";
+					position: absolute;
+					display: inline-block;
+					left: 50%;
+					margin-left: -11px;
+					top: 50%;
+					margin-top: -11px;
+					width: 20px;
+					height: 20px;
+					background: url(../img/password.png)no-repeat;
+					background-size: 100% 100%;
+				}
+				form p span{position: absolute;left: 50px;top: 50%;margin-top:-6px;color: #b5b5b5;font-size: 13px;}
+			
+			form ul li{
+				margin-top: 29px;
+				font-size: 12px;
+				float: right;
+				margin-right:13px ;
+				
+			}
+			li a{
+				color: #6c6c6c;
+			}
+			li a:hover{color: #ff0036;}
+			.poptip{
+				padding: 5px 20px 5px 40px ;
+				
+				background: #fefcee;
+				color: #df9c1f;
+				font-size: 11px;
+				border: 1px solid #f3d995;
+				display: block;position: relative;float: right;border: 1px solid;margin-top: -30px;margin-right: 5px;}
+			.poptip::after{
+				z-index: 3;
+				position: absolute;
+				right:-9px;
+				top:4px;
+				content: "";
+				
+				border-left: 10px solid #fefcee;
+				border-top:8px solid transparent ;
+				border-bottom:8px solid transparent ;
+				
+			}
+			.poptip b{
+				z-index: 2;
+				position: absolute;
+				right:-11px;
+				top:2px;
+				
+				
+				border-left: 12px solid #f9ecca;
+				border-top:10px solid transparent ;
+				border-bottom:10px solid transparent ;
+			}
+			.poptip span{
+				position: absolute;
+				left: 15px;
+				top: 50%;
+				margin-top: -7px;
+				display: inline-block;
+				background: url(../img/logintip.png)no-repeat;
+				background-size:100% 100%;
+				width: 15px;
+				height: 15px;
+			}
+			.quick_login{
+				
+				
+				cursor: pointer;
+				background: url(../img/二维码.png)no-repeat;
+				background-size: 52px 52px;
+				position: relative;float: right;display: inline-block;width: 52px;height: 52px;margin-top: -30px;}
+			.quick_login::after{
+				
+				z-index: 2;
+				position: absolute;
+				left: 0;
+				content: "";
+				border-left: 54px solid white;
+				border-top:54px solid transparent ;
+				border-bottom:0px solid transparent ;
+				transition: all 0.5s;
+			}
+			.quick_login:hover::after{
+				border-left: 0px solid white;
+				border-top:54px solid transparent ;
+				border-bottom:0px solid transparent ;
+				
+			}
+			
+			
+			
+			
+			
+			.accountnum_login{
+				
+				
+				cursor: pointer;
+				background: url(../img/computer.png)no-repeat;
+				background-size: 52px 52px;
+				position: relative;float: right;display: inline-block;width: 52px;height: 52px;margin-top: -30px;}
+			.accountnum_login::after{
+				
+				z-index: 2;
+				position: absolute;
+				left: 0;
+				content: "";
+				border-left: 54px solid white;
+				border-top:54px solid transparent ;
+				border-bottom:0px solid transparent ;
+				transition: all 0.5s;
+			}
+			.accountnum_login:hover::after{
+				border-left: 0px solid white;
+				border-top:54px solid transparent ;
+				border-bottom:0px solid transparent ;
+				
+			}
+			 .Qrcode_mod{
+				margin-top: 24px;
+				width: 298px;
+				height: 200px;
+				
+				font-size: 12px;
+			}	
+			.Qrcode_mod .Qrcode_main{
+				position: relative;
+				width: 298px;
+				height: 140px;
+				
+			}
+			.Qrcode_main img{
+				display: block;
+				position: absolute;
+				transition: all 0.8s; 
+			}
+			.Qrcode_main #QRcode{
+				left: 80px;
+			}
+			.Qrcode_main #phonescan{
+				top: -15px;
+				left: 170px;
+				opacity: 0;
+			}
+			.Qrcode_main:hover #QRcode{
+				left: 35px;
+			}
+			.Qrcode_main:hover #phonescan{
+				opacity: 1;
+			}
+			.Qrcode_mod p, span{
+				vertical-align: top;
+				color: #999999;
+			}
+			.Qrcode_mod #txt{
+				margin-left: 10px;
+				margin-top: 24px;
+				display: inline-block;
+			}
+			
+			.Qrcode_mod p a{
+				color: #ff0036;
+			}
+			#scan{
+				margin-left: 55px;
+				margin-top: 24px;
+					
+				display: inline-block;
+				width: 34px;
+				height: 36px;
+				background: url(../img/scan.png)no-repeat;
+				background-size: 100% 100%;
+				
+			}
+			
+			.login_register{
+				margin-top: 25px;
+				width: 298px;
+				height: 18px;
+				text-align: right;
+			}
+			.login_register a{
+				color: #999999;
+				
+				margin-right: 10px;
+			}
+			.login_register a:hover{color: #ff0036;}
+			
+			
+			
+			
+			footer{font-size: 12px;}
+			.foot_box{width: 1190px;margin: 0 auto;padding-top: 52px;}
+			footer li{float: left;margin-bottom: 23px;}
+			.alibaba li{margin-right:16px ;}
+			.alibaba  a{ color: #000000;}
+			footer  a:hover{text-decoration: underline;}
+			footer p{display: block;margin-bottom: 8px;}
+			footer p a{margin-right: 70px;color: #999999;}
+			footer ul{overflow: hidden;}
+			a span#gongan{
+				vertical-align: middle;
+				display: inline-block;
+				background: url(../img/gongan.png)no-repeat;
+				width: 20px;
+				height: 20px;
+				background-size: 100% 100%;
+			}

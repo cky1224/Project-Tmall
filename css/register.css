@@ -1,0 +1,686 @@
+.icon {
+   width: 1em; height: 1em;
+   vertical-align: -0.15em;
+   fill: currentColor;
+   overflow: hidden;
+}
+/*注册界面大框*/
+section.registerMain{
+	width: 990px;
+	height: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	position:relative;
+}
+/*注册协议*/
+div.agrument{
+	border: 1px solid orange;
+	width: 680px;
+	position: absolute;
+	left: 50%;
+	margin-left: -340px;
+	top:20%;
+	border: 2px solid #dedede;
+	border-top: 2px solid #ff0036;
+	background-color: #fff;
+	z-index: 888;
+	padding: 20px;
+    color: #3e3e3e; 
+}
+div.agrument p{
+	font-size: 13px;
+	margin-bottom: 8px;
+}
+div.agrument span.fal{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	color: red;
+	cursor: pointer;
+}
+div.agrument button{
+	width: 200px;
+	height: 42px;
+	border: 0;
+	outline: none;
+	line-height: 42px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    background: #f40;
+ 	border-radius: 3px;
+    cursor: pointer;
+	background-color: #ff0036;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+h3{
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+strong{
+	font-weight: 700;
+	font-size: 15px;
+	color: #000;
+}
+div.agrument a{
+	color: #ff0036;
+	text-decoration: none;
+}
+header.registerTop{
+	height: 46px;
+	border-bottom: 2px solid #e6e6e6;
+}
+header.registerTop ul.navResUl{
+	width: 720px;
+	height: 46px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+header.registerTop ul.navResUl li{
+	width: 180px;
+	height: 46px;
+	line-height: 46px;
+	float: left;
+}
+ul.navResUl li.currentRes{
+	border-bottom:2px solid #ff4700;
+}
+header.registerTop ul.navResUl li a{
+	text-decoration: none;
+	color: #3e3e3e;
+}
+/*****************************设置用户名：***********************************************************/
+ul.navResUl>li>svg{
+	font-size: 24px;
+}
+li.currentRes>svg{
+	color: rgba(255,0,54,0.8);
+}
+div.verification1{
+	margin-top: 72px;
+	/*display:none;*/
+	/*border: 1px solid red;*/
+}
+div.verification1 form{
+	/*display:none;*/
+}
+div.v1First{
+	margin-bottom: 21px;	
+}
+div.verification1>p{
+	/*text-align: center;*/
+	margin-bottom: 21px;
+}
+div.mobile{
+	width: 162px;
+	height: 32px;
+	float: left;
+	border: 1px solid #ccc;
+	position: relative;
+	cursor: pointer;
+	/*margin-right: 5px;*/
+}
+div.mobileSel{
+	width: 162px;
+	height: 204px;
+	position: absolute;
+	top: 32px;
+	overflow: auto;
+	display: none;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	z-index: 99;
+}
+div.mobileSel ul li{
+	width: 100%;
+	height: 32px;
+	line-height: 32px;
+	position: relative;
+}
+li.currentLi{
+	background-color: orange;
+}
+div.mobileSel ul li:hover{
+	background-color: orange;
+}
+div.mobileSel ul li span:nth-of-type(1){
+	margin-left: 8px;
+	font-size: 14px;
+	text-align: center;
+}
+div.mobileSel ul li span:nth-of-type(2){
+	font-size: 14px;
+	text-align: center;
+	position: absolute;
+	right: 5px;
+}
+input.mobileNum{
+	width: 162px;
+	height: 34px;
+	padding: 5px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+div.mobile>span{
+	position: absolute;
+	top: 50%;
+	color: #3c3c3c;
+	font-weight: 700;
+}
+span#area{
+	width: 78px;
+	left: 10px;
+	margin-top: -10px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+}
+div.mobile span#numHead{
+	margin-top: -10px;
+	right: 30px;
+}
+div.mobile>span:nth-last-of-type(1){
+	display: inline-block;
+	width: 10px;
+	height: 5px;
+	right: 10px;
+	background: url(../img/arrow.png) -10px -25px no-repeat;
+}
+div.verification1 label{
+	display: inline-block;
+	width: 355px;
+	text-align: right;
+	margin-right: 5px;
+	line-height: 34px;
+}
+div.verification1 label:nth-of-type(1){
+	float: left;
+}
+span#mobSpan{
+	color: #ff0036;
+	font-size: 12px;
+}
+div.verification1Div{
+	height: 34px;
+	margin-bottom: 32px;
+}
+div.verification1 p.dragP{
+	width: 355px;
+	height: 34px;
+	/*border: 1px solid red;*/
+	margin-right: 5px;
+	float:left;
+	overflow: hidden;
+}
+#getNext{
+	cursor: pointer;
+}
+/*************************填写账户信息*******************/
+div.verification2{
+	margin-top:50px;
+	padding:50px 0;
+	display:none;
+}
+div.verification2 label{
+	display:inline-block;
+	width: 400px;
+	height:37px;
+	text-align:right;
+	margin-right: 20px;
+}
+div.verification2 p:nth-of-type(1) label,div.verification2 p:nth-of-type(2) label,div.verification2 p:nth-of-type(5) label{
+	font-weight:700;
+}
+div.verification2>form>p{
+	margin-bottom:20px;
+	font-size:14px;
+}
+div.verification2>form>p>input{
+	font-size:14px;
+	width: 202px;
+	height: 17px;
+	display:inline-block;
+	padding:9px;
+	border: 1px solid #dedede;
+}
+div.verification2>form>p>button{
+	width: 180px;
+	height: 36px;
+	background: #ff0036;
+    color: #FFF;
+    padding:0 20px;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+}
+/*************************设置支付方式*******************/
+div.verification3{
+	width: 100%;
+	border: 2px solid #e6e6e6;
+	margin-top:40px;
+	border-bottom:0;
+	padding:50px 10px;
+	display: none;
+}
+div.verification3 label{
+	display:inline-block;
+	width: 200px;
+	text-align:right;
+	margin-right:8px;
+}
+div.verification3 p{
+	margin-bottom:20px;
+}
+div.verification3 input{
+	width: 143px;
+	font-size:12px;
+	margin-right: 5px;
+	padding:8px;
+}
+div.verification3 button{
+	border:0;
+	padding:10px;
+	margin-right:5px;
+	cursor:pointer;
+	border-radius:3px;
+}
+div.verification3 select{
+	display:inline-block;
+	width: 75px;
+	margin-left:0;
+	font-size:14px;
+	margin-left:-8px;
+}
+div.verification3 a{
+	font-size:12px;
+	color: #3385ff;
+	text-decoration:none;
+}
+div.verification3 p:nth-last-of-type(2) button{
+	background-color: #3385ff;
+	color:#fff;
+	font-size:16px;
+}
+div.verification3 p:nth-last-of-type(1){
+	font-size:12px;
+}
+/*************************进度条*******************/
+div.verification1 span.dragTop{
+	display: inline-block;
+	width: 40px;
+	height: 32px;
+	line-height: 32px;
+	background-color: white;
+	border: 1px solid #ccc;
+	text-align: center;
+	position: absolute;
+	/*transition: all 1s;*/
+	cursor: move;
+	/*z-index: 3;*/
+}
+div.verification1 div.dragBottom{
+	font-size: 12px;
+	font-family: arial;
+	width: 300px;
+	height: 32px;
+	float: left;
+	margin-left: 4px;
+	background: rgb(232,232,232);
+	/*border: 1px solid red;*/
+	line-height: 32px;
+	text-align: center;
+	position: relative;
+	border-radius: 8px;
+}
+div.progress_bar_fg{
+	width: 0;
+	height: 100%;
+	background: #7ac23c;
+	opacity: 0.5;
+	position: absolute;
+	left: 0;
+	border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    /*transition: all 1s;*/
+}
+div.dragBottom span{
+	position: absolute;
+	left: 0;
+}
+div.verification1>form>p:nth-last-of-type(1){
+	width: 350px;
+	height: 36px;
+	margin-left: 363px;
+}
+div.verification1 button{
+	width: 180px;
+	height: 36px;
+	background-color: #ededed;
+	color: #FFF;
+	font-size: 16px;
+	font-weight: 700;
+	border-radius: 3px;
+	border: 0;
+}
+
+
+
+/*小蜜蜂*/
+div.bee{
+	width: 56px;
+	height: 86px;
+	border-radius: 4px;
+	border: 2px solid #f5f5f5;
+	padding: 8px 0;
+	position: absolute;
+	top: 300px;
+	right: 19%;
+	z-index: 9999;
+	background-color: #fff;
+	display: none;
+}
+div.fontImg{
+	width: 100%;
+	margin-bottom: 10px;
+}
+div.fontImg>svg{
+	width: 100%;
+	text-align: center;
+	font-size: 30px;
+	color: #f7931e;
+}
+div.bee>p:nth-of-type(1){
+	margin-bottom: 5px;
+}
+/***********小蜜蜂close****************/
+div.beeT{
+	width: 150px;
+	height: 370px;
+	position: absolute;
+	top: 252px;
+	right: 5%;
+	z-index: 9999;
+	cursor: move;
+}
+div.beeTop span.beeLove{
+	display: inline-block;
+	width: 64px;
+	height: 36px;
+	background: url(../img/bee.png) -150px 0 no-repeat;
+}
+div.beeTop>p{
+	background-color: #f7931e;
+	text-align: center;
+    color: #fff;
+    font-size: 12px;
+    padding: 11px 0 5px;
+    cursor: move;
+    position: relative;
+    border-top-left-radius: 6px;
+}
+div.beeTop>p>span{
+	font-size: 18px;
+}
+span.beeClose{
+	display: inline-block;
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	background: #f7931e url(../img/closeBee.png);
+	border-radius: 50%;
+	right: -6px;
+	top: -5px;
+	cursor: pointer;
+}
+span.xiaoBeeHead{
+	display: inline-block;
+	position: absolute;
+	top: -19px;
+	right: 35px;
+	width: 49px;
+	height: 66px;
+	z-index: 20;
+	background: url(../img/bee.png) -45px 0 no-repeat;
+}
+span.xiaoBeeFoot{
+	display: inline-block;
+	position: absolute;
+	width: 45px;
+	height: 36px;
+	right: 10px;
+	top: 14px;
+	background: url(../img/bee.png);	
+}
+div.beeT ul{
+	background-color: #f9f9f9;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+div.beeT ul li{
+	width: 137px;
+	line-height: 24px;
+	font-size: 12px;
+	margin: 1px 6px;
+	padding: 0 8px 1px;
+	cursor: pointer;
+	border-bottom: 1px solid #ddd;
+	box-sizing: border-box;
+	max-height: 48px;
+	overflow: hidden;
+}
+span.xiaoBee{
+	color: #ff0036;
+	font-size: 14px;
+	text-align: center;
+}
+div.beeT a{
+	display: block;
+	width: 100%;
+	text-decoration: none;
+	text-align: center;
+	padding: 6px 0;
+}
+span.beeBImg{
+	display: inline-block;
+	width: 15px;
+	height: 16px;
+	background: url(../img/bee.png) -230px 0 no-repeat;
+	margin-left: 5px;
+}
+/*点击关闭以后的bee*/
+div.bee:hover{
+	border: 2px solid #f7931e;
+	cursor: pointer;
+}
+div.bee:hover p{
+	color: #f7931e;
+}
+div.bee div{
+	height: 32px;
+}
+div.bee p{
+	height: 17px;
+	font-size: 14px;
+	color: #b7b7b7;
+	text-align: center;
+}
+
+
+
+/*手机扫码，安全登录*/
+div.sweepBig{
+	width: 720px;
+	height: 550px;
+	position: absolute;
+	top: 10px;
+	left: 50%;
+	margin-left: -360px;
+	background-color: rgba(0,0,0,0.4);
+	border-radius: 10px;
+	box-shadow: 0  0 5px #ccc;
+	display: none;
+	z-index: 999;
+}
+div.sweepSmall,div.loginSmall{
+	width: 384px;
+	height: 444px;
+	background-color: #fff;
+	border-radius: 10px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -192px;
+	margin-top: -222px;
+}
+div.loginSmall{
+	display: none;
+}
+div.sweepSmall>p:nth-of-type(1),div.loginSmall>p:nth-of-type(1){
+	width: 330px;
+	height: 26px;
+	position: absolute;
+	margin-left: 30px;
+	top: 50px;
+	line-height: 18px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #3c3c3c;
+}
+div.pasLogin{
+	height: 30px;
+	color: #df9c1f;
+	font-size: 12px;
+    font-weight: 400;
+    float: right;
+    margin:15px;
+	border: 1px solid #df9c1f;
+	line-height: 30px;
+}
+div.login{
+	float: right;
+	width: 52px;
+	height: 52px;
+	border: 1px solid orange;
+	margin: 15px 8px;
+	cursor: pointer;
+}
+div.sweep,div.txtPas{
+	width: 384px;
+	height: 240px;
+	margin-top: 50px;
+	border: 1px solid transparent;
+	position: relative;
+}
+div.sweep label,div.txtPas label{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	/*outline: none;*/
+	border: 1px solid orange;
+	vertical-align: middle;
+	margin-right: 0;
+}
+/*二维码*/
+div.sweep>img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -70px;
+	margin-top: -70px;
+}
+div.sweep>p{
+	position: absolute;
+	width: 144px;
+	height: 36px;
+	bottom: 10px;
+	padding:0 40px; 
+	font-size: 12px;
+	left: 50%;
+	margin-left: -87px;
+}
+div.sweep a{
+	color: #f40;
+	text-decoration: none;
+}
+div.sweep span{
+	display: inline-block;
+	padding: 3px 0;
+	color: #9c9c9c;
+}
+div.sweep>p>a:nth-of-type(1){
+	padding: 0 5px;
+	border-right: 1px solid grey;
+}
+input.ipt{
+	width: 260px;
+	height: 38px;
+	vertical-align: middle;
+	margin-left: 0;
+}
+/*输入框登录*/
+div.txtPas>form>p:nth-of-type(1){
+	/*height: 43px;*/
+	text-align: center;
+	margin-top: 35px;
+}
+div.txtPas>form>p:nth-of-type(2){
+	text-align: center;
+	margin-top: 20px;
+}
+div.txtPas>form>p:nth-of-type(3){
+	text-align: center;
+}
+.btnLogon{
+	/*display: block;*/
+	margin-top: 20px;
+	width: 300px;
+	height: 42px;
+	border: 0;
+	outline: none;
+	line-height: 42px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    background: #f40;
+ 	border-radius: 3px;
+    cursor: pointer;
+	background-color: #f52b00;
+}
+/*div.sweepSmall>p:nth-of-type(2){*/
+p.selectedRes{
+	width: 330px;
+	height: 18px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*div.sweepSmall>p:nth-of-type(2) a{*/
+p.selectedRes a{
+	color: #9c9c9c;
+	font-size: 14px;
+	margin-right: 10px;
+	text-decoration: none;
+	float: right;
+}
+p.selectedRes a:hover{
+	color: #f40;
+}
+div.sweepSmall ul,div.loginSmall ul{
+	height: 18px;
+	margin-top: 40px;
+}
+div.sweepSmall ul li,div.loginSmall ul li{
+	width: 170px;
+	height: 20px;
+	float: left;
+	text-align: center;
+	color: #2da3e8;
+	font-size: 14px;
+	cursor: pointer;
+}
